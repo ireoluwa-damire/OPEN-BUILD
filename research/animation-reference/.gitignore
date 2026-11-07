@@ -1,0 +1,14 @@
+# Third-party reference bytes stay local; publish original app art and source only.
+/media/
+/download-pack.zip
+/animated-contact-sheet.jpg
+/rea-evidence-bundle.json
+/rea-streak-article.png
+/rea-streak-dom.html
+/rea-streak-accessibility.txt
+/runtime/assets/
+/runtime/sources/
+/runtime/rea-evidence-bundle.json
+/runtime/prior-guest-web-evidence.json
+/runtime/*.zip
+/prior-runtime-urls.json

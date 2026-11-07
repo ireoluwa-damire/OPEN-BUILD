@@ -1,0 +1,3595 @@
+{
+  "tracks": [
+    {
+      "id": "music",
+      "title": "Music",
+      "description": "A starter check of basic Western rhythm, pitch vocabulary, and practice planning. This version does not listen to or grade audio.",
+      "goal_hint": "What would you like to play, create, or understand?",
+      "project": "An original short rhythm pattern, with counted bars and your own performance review.",
+      "questions": [
+        {
+          "prompt": "What best describes the pulse of a piece?",
+          "options": [
+            "The regular underlying beat",
+            "How loud it is",
+            "Every sound in the melody",
+            "Its lyrics"
+          ],
+          "correct": 0,
+          "explanation": "A pulse provides a regular timing reference; the rhythm can change around it.",
+          "hint": "Break the idea into one small step.",
+          "id": "music-pulse-baseline",
+          "skill": "music-pulse",
+          "label": "Find a steady pulse",
+          "resource_id": "music-pulse-video"
+        },
+        {
+          "prompt": "In 4/4 with a quarter-note beat, how long is a half note?",
+          "options": [
+            "Half a beat",
+            "One beat",
+            "Two beats",
+            "Four bars"
+          ],
+          "correct": 2,
+          "explanation": "A half note is two quarter-note beats in this example.",
+          "hint": "Break the idea into one small step.",
+          "id": "music-duration-baseline",
+          "skill": "music-duration",
+          "label": "Give sounds a length",
+          "resource_id": "music-duration-reference"
+        },
+        {
+          "prompt": "Which word describes how high or low a note sounds?",
+          "options": [
+            "Tempo",
+            "Loudness",
+            "Pitch",
+            "Duration"
+          ],
+          "correct": 2,
+          "explanation": "Pitch concerns high and low; tempo concerns speed and duration concerns length.",
+          "hint": "Break the idea into one small step.",
+          "id": "music-pitch-baseline",
+          "skill": "music-pitch",
+          "label": "Follow a pitch shape",
+          "resource_id": "music-pitch-video"
+        },
+        {
+          "prompt": "How many quarter-note beats fit in two complete bars of 4/4?",
+          "options": [
+            "Two",
+            "Four",
+            "Six",
+            "Eight"
+          ],
+          "correct": 3,
+          "explanation": "Each bar has four quarter-note beats, giving eight across two bars.",
+          "hint": "Break the idea into one small step.",
+          "id": "music-phrase-baseline",
+          "skill": "music-phrase",
+          "label": "Shape a small phrase",
+          "resource_id": "music-phrase-reference"
+        },
+        {
+          "prompt": "A pattern becomes uneven at a fast tempo. What is a useful next practice step?",
+          "options": [
+            "Speed up again",
+            "Slow down and isolate the difficult part",
+            "Ignore timing",
+            "Only increase volume"
+          ],
+          "correct": 1,
+          "explanation": "A slower focused repetition makes the source of the difficulty easier to notice.",
+          "hint": "Break the idea into one small step.",
+          "id": "music-practice-baseline",
+          "skill": "music-practice",
+          "label": "Practise one clear target",
+          "resource_id": "music-practice-reference"
+        },
+        {
+          "prompt": "Which check is most useful before performing a new 4/4 rhythm?",
+          "options": [
+            "Its title has four words",
+            "Every bar totals four quarter-note beats",
+            "Every sound is loud",
+            "There are no rests"
+          ],
+          "correct": 1,
+          "explanation": "Checking each bar’s duration helps verify that the written rhythm fits its meter.",
+          "hint": "Break the idea into one small step.",
+          "id": "music-create-baseline",
+          "skill": "music-create",
+          "label": "Make and review your own idea",
+          "resource_id": "music-create-reference"
+        }
+      ],
+      "recall_questions": [
+        {
+          "prompt": "You clap different patterns while tapping evenly. What is your foot keeping?",
+          "options": [
+            "The melody",
+            "The pulse",
+            "The lyrics",
+            "The key signature"
+          ],
+          "correct": 1,
+          "explanation": "The even tapping maintains the pulse while your clapping creates a rhythm.",
+          "hint": "Break the idea into one small step.",
+          "id": "music-pulse-recall",
+          "skill": "music-pulse",
+          "label": "Find a steady pulse",
+          "resource_id": "music-pulse-video"
+        },
+        {
+          "prompt": "How many quarter-note beats are left after a half note in one 4/4 bar?",
+          "options": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+          ],
+          "correct": 1,
+          "explanation": "The bar holds four quarter-note beats, so four minus two leaves two.",
+          "hint": "Break the idea into one small step.",
+          "id": "music-duration-recall",
+          "skill": "music-duration",
+          "label": "Give sounds a length",
+          "resource_id": "music-duration-reference"
+        },
+        {
+          "prompt": "A melody moves from C up to D up to E in the same register. What is its contour?",
+          "options": [
+            "Upward",
+            "Downward",
+            "Unchanging",
+            "Always louder"
+          ],
+          "correct": 0,
+          "explanation": "The pitches rise. Rising pitch does not imply rising loudness.",
+          "hint": "Break the idea into one small step.",
+          "id": "music-pitch-recall",
+          "skill": "music-pitch",
+          "label": "Follow a pitch shape",
+          "resource_id": "music-pitch-video"
+        },
+        {
+          "prompt": "A three-bar 4/4 pattern has how many quarter-note beats in total?",
+          "options": [
+            "Six",
+            "Nine",
+            "Twelve",
+            "Sixteen"
+          ],
+          "correct": 2,
+          "explanation": "Three bars of four quarter-note beats give twelve beats.",
+          "hint": "Break the idea into one small step.",
+          "id": "music-phrase-recall",
+          "skill": "music-phrase",
+          "label": "Shape a small phrase",
+          "resource_id": "music-phrase-reference"
+        },
+        {
+          "prompt": "Which practice goal is easiest to check?",
+          "options": [
+            "Become amazing today",
+            "Be more musical",
+            "Keep four bars even for two repetitions",
+            "Never make a mistake again"
+          ],
+          "correct": 2,
+          "explanation": "A short observable target gives you something concrete to compare.",
+          "hint": "Break the idea into one small step.",
+          "id": "music-practice-recall",
+          "skill": "music-practice",
+          "label": "Practise one clear target",
+          "resource_id": "music-practice-reference"
+        },
+        {
+          "prompt": "Your second attempt is steadier after slowing down. What can you conclude?",
+          "options": [
+            "You have mastered all music",
+            "This adjustment helped this attempt",
+            "Speed no longer matters anywhere",
+            "No further practice is useful"
+          ],
+          "correct": 1,
+          "explanation": "This is evidence about a specific attempt, not proof of general mastery.",
+          "hint": "Break the idea into one small step.",
+          "id": "music-create-recall",
+          "skill": "music-create",
+          "label": "Make and review your own idea",
+          "resource_id": "music-create-reference"
+        }
+      ],
+      "skills": [
+        {
+          "id": "music-pulse",
+          "title": "Find a steady pulse",
+          "subtitle": "Keep the beat while the rhythm changes.",
+          "prerequisites": [],
+          "minutes": 15,
+          "deliverable": "Tap eight even beats and clap on beats one and three. Notice whether your foot speeds up when the claps change.",
+          "resource_id": "music-pulse-video",
+          "lesson": {
+            "prompt": "Your claps change but your foot stays even. What stays consistent?",
+            "options": [
+              "The pulse",
+              "Every note length",
+              "The melody",
+              "The volume"
+            ],
+            "correct": 0,
+            "explanation": "The pulse stays even even when the clapped rhythm changes.",
+            "hint": "Break the idea into one small step.",
+            "idea": "Keep the beat while the rhythm changes.",
+            "body": "A pulse is a regular underlying beat. A rhythm places sounds and silences against it. Tap four even beats first, then clap a pattern while your foot keeps the pulse. Start with counting rather than speed.",
+            "example": "Count:  1   2   3   4\nClap:   x       x   x",
+            "task": "Tap eight even beats and clap on beats one and three. Notice whether your foot speeds up when the claps change."
+          },
+          "type": "micro_lesson",
+          "unit_id": "music-unit-1",
+          "challenges": [
+            {
+              "id": "pulse-1",
+              "kind": "singleSelect",
+              "prompt": "What best describes the pulse of a piece?",
+              "explanation": "A pulse is the steady timing reference. Rhythms change around it.",
+              "options": [
+                "The regular underlying beat",
+                "How loud it is",
+                "Every sound in the melody",
+                "The lyrics"
+              ],
+              "answer": [
+                0
+              ],
+              "content": {
+                "hint": "Think of what your foot taps while music plays.",
+                "parallel": {
+                  "prompt": "Which part of the music stays even while a clapped pattern changes?",
+                  "options": [
+                    "The pulse",
+                    "The words",
+                    "The loudest note",
+                    "The instrument"
+                  ],
+                  "answer": [
+                    0
+                  ],
+                  "explanation": "The pulse stays even while the rhythm on top of it changes."
+                },
+                "skippable": true
+              }
+            },
+            {
+              "id": "pulse-2",
+              "kind": "sequenceTokens",
+              "prompt": "Build one bar of 4/4, starting from beat 1.",
+              "explanation": "Count 1, 2, 3, 4, then return to 1 for the next bar.",
+              "options": [
+                "3",
+                "1",
+                "4",
+                "2"
+              ],
+              "answer": [
+                1,
+                3,
+                0,
+                2
+              ],
+              "content": {
+                "hint": "Start on 1 and count upward.",
+                "parallel": {
+                  "prompt": "Count one bar of 3/4, starting from beat 1.",
+                  "options": [
+                    "2",
+                    "3",
+                    "1"
+                  ],
+                  "answer": [
+                    2,
+                    0,
+                    1
+                  ],
+                  "explanation": "A bar of 3/4 counts 1, 2, 3, then returns to 1."
+                }
+              }
+            },
+            {
+              "id": "pulse-3",
+              "kind": "musicImitate",
+              "prompt": "Watch four beats, then tap five steady beats.",
+              "explanation": "Keep the spaces between taps even. Sumi measures screen taps only; audio is not recorded or graded.",
+              "options": [],
+              "answer": [],
+              "content": {}
+            },
+            {
+              "id": "pulse-4",
+              "kind": "matchPairs",
+              "prompt": "Match each idea to its meaning.",
+              "explanation": "Pulse is the beat; rhythm is the pattern on top; a rest is counted silence.",
+              "options": [
+                "Pulse",
+                "Rhythm",
+                "Rest"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {
+                "right": [
+                  "A silence that still takes time",
+                  "The steady underlying beat",
+                  "Sounds and silences placed against the beat"
+                ],
+                "parallel": {
+                  "prompt": "Match each word to what it describes.",
+                  "options": [
+                    "Beat",
+                    "Clap pattern",
+                    "Counted silence"
+                  ],
+                  "answer": [
+                    1,
+                    2,
+                    0
+                  ],
+                  "explanation": "A beat is the pulse; a clap pattern is a rhythm; counted silence is a rest.",
+                  "content": {
+                    "right": [
+                      "A rest",
+                      "The pulse",
+                      "A rhythm"
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "music-u1-video",
+          "title": "Watch and apply",
+          "subtitle": "A short video, then one question that uses it.",
+          "minutes": 10,
+          "deliverable": "A short video, then one question that uses it.",
+          "generated": true,
+          "resource_id": "music-pulse-video",
+          "type": "video_resource",
+          "unit_id": "music-unit-1",
+          "prerequisites": [
+            "music-pulse"
+          ],
+          "challenges": [
+            {
+              "id": "video-1",
+              "kind": "mediaObservation",
+              "prompt": "Watch the pulse video, or read its summary. What stays the same while note lengths change?",
+              "explanation": "Linking what you watched to the steady beat helps the next exercise.",
+              "options": [],
+              "answer": [],
+              "content": {
+                "reference": "The video counts a steady beat while longer and shorter notes are placed above it. Notice that the counting never speeds up.",
+                "resourceId": "music-pulse-video"
+              }
+            },
+            {
+              "id": "video-2",
+              "kind": "singleSelect",
+              "prompt": "In the video, longer notes are added above the count. What happens to the beat?",
+              "explanation": "The beat keeps its speed. Longer notes simply span more beats.",
+              "options": [
+                "It stays at the same speed",
+                "It slows down to fit them",
+                "It stops",
+                "It gets louder"
+              ],
+              "answer": [
+                0
+              ],
+              "content": {
+                "parallel": {
+                  "prompt": "A slow melody plays over a steady count. What does the count do?",
+                  "options": [
+                    "It stays even",
+                    "It follows the melody",
+                    "It gets faster",
+                    "It disappears"
+                  ],
+                  "answer": [
+                    0
+                  ],
+                  "explanation": "The count stays even; the melody moves at its own pace above it."
+                },
+                "skippable": true
+              }
+            },
+            {
+              "id": "video-3",
+              "kind": "typedReflection",
+              "prompt": "Name one moment where you could feel the beat continue through a silence.",
+              "explanation": "Noticing counted silence prepares you for rests.",
+              "options": [],
+              "answer": [],
+              "content": {
+                "task": "Write one sentence about where a silence still took time."
+              }
+            }
+          ]
+        },
+        {
+          "id": "music-duration",
+          "title": "Give sounds a length",
+          "subtitle": "Count note values and rests in a simple meter.",
+          "prerequisites": [
+            "music-u1-video"
+          ],
+          "minutes": 15,
+          "deliverable": "Write one four-beat bar using note lengths and a rest. Count the silence as carefully as the sounds.",
+          "resource_id": "music-duration-reference",
+          "lesson": {
+            "prompt": "How many beats do a half note, a quarter note, and a quarter rest fill in 4/4?",
+            "options": [
+              "Two",
+              "Three",
+              "Four",
+              "Five"
+            ],
+            "correct": 2,
+            "explanation": "Their lengths add to two plus one plus one: four beats.",
+            "hint": "Break the idea into one small step.",
+            "idea": "Count note values and rests in a simple meter.",
+            "body": "For this exercise in 4/4, a quarter note lasts one beat and a half note lasts two. A rest also occupies time. Keep counting during silence so the next sound starts in the right place.",
+            "example": "4/4 bar: half note + quarter note + quarter rest\nBeats:       2     +      1       +      1 = 4",
+            "task": "Write one four-beat bar using note lengths and a rest. Count the silence as carefully as the sounds."
+          },
+          "type": "micro_lesson",
+          "unit_id": "music-unit-1",
+          "challenges": [
+            {
+              "id": "duration-1",
+              "kind": "singleSelect",
+              "prompt": "In 4/4 with a quarter-note beat, how long is a half note?",
+              "explanation": "A half note lasts two quarter-note beats in this example.",
+              "options": [
+                "Half a beat",
+                "One beat",
+                "Two beats",
+                "Four bars"
+              ],
+              "answer": [
+                2
+              ],
+              "content": {
+                "hint": "A half note fills half of a four-beat bar.",
+                "parallel": {
+                  "prompt": "In 4/4 with a quarter-note beat, how long is a whole note?",
+                  "options": [
+                    "One beat",
+                    "Two beats",
+                    "Three beats",
+                    "Four beats"
+                  ],
+                  "answer": [
+                    3
+                  ],
+                  "explanation": "A whole note fills the whole four-beat bar."
+                },
+                "skippable": true
+              }
+            },
+            {
+              "id": "duration-2",
+              "kind": "sequenceTokens",
+              "prompt": "Order these from shortest to longest.",
+              "explanation": "Quarter (1 beat) is shorter than half (2 beats), which is shorter than whole (4 beats).",
+              "options": [
+                "Half note",
+                "Quarter note",
+                "Whole note"
+              ],
+              "answer": [
+                1,
+                0,
+                2
+              ],
+              "content": {
+                "parallel": {
+                  "prompt": "Order these rests from shortest to longest.",
+                  "options": [
+                    "Whole rest",
+                    "Quarter rest",
+                    "Half rest"
+                  ],
+                  "answer": [
+                    1,
+                    2,
+                    0
+                  ],
+                  "explanation": "Quarter rest (1 beat), half rest (2 beats), whole rest (4 beats)."
+                }
+              }
+            },
+            {
+              "id": "duration-3",
+              "kind": "matchPairs",
+              "prompt": "Match each value to its length in 4/4.",
+              "explanation": "Quarter = 1 beat, half = 2 beats, whole = 4 beats when the quarter note gets the beat.",
+              "options": [
+                "Quarter note",
+                "Half note",
+                "Whole note"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {
+                "right": [
+                  "Four beats",
+                  "One beat",
+                  "Two beats"
+                ]
+              }
+            },
+            {
+              "id": "duration-4",
+              "kind": "singleSelect",
+              "prompt": "A bar has a half note and a quarter note. What fills the last beat?",
+              "explanation": "Two beats plus one beat is three; a one-beat rest completes four.",
+              "options": [
+                "A quarter rest",
+                "A whole note",
+                "Another half note",
+                "Nothing is needed"
+              ],
+              "answer": [
+                0
+              ],
+              "content": {
+                "hint": "Add the beats you already have.",
+                "parallel": {
+                  "prompt": "A bar has three quarter notes. What completes it?",
+                  "options": [
+                    "One quarter note or rest",
+                    "A half note",
+                    "A whole rest",
+                    "Two half notes"
+                  ],
+                  "answer": [
+                    0
+                  ],
+                  "explanation": "Three beats plus one more beat makes four."
+                },
+                "skippable": true
+              }
+            },
+            {
+              "id": "duration-5",
+              "kind": "typedReflection",
+              "prompt": "Write one four-beat bar using one rest.",
+              "explanation": "Counting the rest as carefully as the notes keeps the bar complete.",
+              "options": [],
+              "answer": [],
+              "content": {
+                "task": "Write it with counts, for example: half note (1-2), quarter rest (3), quarter note (4)."
+              }
+            }
+          ]
+        },
+        {
+          "id": "music-phrase",
+          "title": "Shape a small phrase",
+          "subtitle": "Organize a pattern into bars.",
+          "prerequisites": [
+            "music-duration"
+          ],
+          "minutes": 15,
+          "deliverable": "Create two bars of counted rhythm. Repeat the first bar, then make one deliberate change in the second.",
+          "resource_id": "music-phrase-reference",
+          "lesson": {
+            "prompt": "One bar of 4/4 contains only three quarter-note beats so far. What completes it?",
+            "options": [
+              "One quarter rest",
+              "A whole note",
+              "Three half notes",
+              "Nothing"
+            ],
+            "correct": 0,
+            "explanation": "A one-beat quarter rest brings the bar total to four.",
+            "hint": "Break the idea into one small step.",
+            "idea": "Organize a pattern into bars.",
+            "body": "For a first example, use two bars of 4/4. Each bar contains four quarter-note beats. A repeat or a small change can make a short idea recognizable. Keep bar totals correct before adding detail.",
+            "example": "Bar 1: 1  2  3  4 | Bar 2: 1  2  3  4\nIdea:  x     x  x |        x  x     x",
+            "task": "Create two bars of counted rhythm. Repeat the first bar, then make one deliberate change in the second."
+          },
+          "type": "micro_lesson",
+          "unit_id": "music-unit-1",
+          "challenges": [
+            {
+              "id": "phrase-1",
+              "kind": "singleSelect",
+              "prompt": "How many quarter-note beats fit in two complete bars of 4/4?",
+              "explanation": "Each bar has four beats, so two bars hold eight.",
+              "options": [
+                "Two",
+                "Four",
+                "Six",
+                "Eight"
+              ],
+              "answer": [
+                3
+              ],
+              "content": {
+                "hint": "Four beats per bar, two bars.",
+                "parallel": {
+                  "prompt": "How many quarter-note beats are in three bars of 4/4?",
+                  "options": [
+                    "Seven",
+                    "Nine",
+                    "Twelve",
+                    "Sixteen"
+                  ],
+                  "answer": [
+                    2
+                  ],
+                  "explanation": "Three bars of four beats give twelve."
+                },
+                "skippable": true
+              }
+            },
+            {
+              "id": "phrase-2",
+              "kind": "sequenceTokens",
+              "prompt": "Put these steps for building a two-bar idea in order.",
+              "explanation": "Count a clear first bar, repeat it, then make one deliberate change.",
+              "options": [
+                "Change one thing in bar 2",
+                "Count bar 1",
+                "Repeat bar 1"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {
+                "parallel": {
+                  "prompt": "Order the steps for checking a new phrase.",
+                  "options": [
+                    "Perform it twice",
+                    "Check each bar adds to four",
+                    "Write the rhythm"
+                  ],
+                  "answer": [
+                    2,
+                    1,
+                    0
+                  ],
+                  "explanation": "Write it, check every bar adds up, then perform it."
+                }
+              }
+            },
+            {
+              "id": "phrase-3",
+              "kind": "matchPairs",
+              "prompt": "Match each term to its meaning.",
+              "explanation": "A bar groups beats; the time signature sets how many; a phrase is an idea that spans bars.",
+              "options": [
+                "Bar",
+                "Time signature",
+                "Phrase"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {
+                "right": [
+                  "A short musical idea across bars",
+                  "A group of beats",
+                  "How many beats each bar holds"
+                ]
+              }
+            },
+            {
+              "id": "phrase-4",
+              "kind": "typedReflection",
+              "prompt": "Describe your two-bar idea in words.",
+              "explanation": "Naming the repeat and the change makes the idea easy to remember.",
+              "options": [],
+              "answer": [],
+              "content": {
+                "task": "Say what repeats and what you changed in bar 2."
+              }
+            }
+          ]
+        },
+        {
+          "id": "music-u1-review",
+          "title": "Unit review",
+          "subtitle": "Bring back what you practised with new examples.",
+          "minutes": 10,
+          "deliverable": "Bring back what you practised with new examples.",
+          "generated": true,
+          "resource_id": "music-pulse-reference",
+          "type": "recall_review",
+          "unit_id": "music-unit-1",
+          "prerequisites": [
+            "music-phrase"
+          ],
+          "challenges": [
+            {
+              "id": "review-1",
+              "kind": "singleSelect",
+              "prompt": "Your foot taps evenly while your claps change. What is your foot keeping?",
+              "explanation": "Even taps keep the pulse while claps make a rhythm.",
+              "options": [
+                "The pulse",
+                "The melody",
+                "The lyrics",
+                "The key"
+              ],
+              "answer": [
+                0
+              ],
+              "content": {
+                "parallel": {
+                  "prompt": "A drummer keeps an even click while a singer changes rhythm. What does the click keep?",
+                  "options": [
+                    "The pulse",
+                    "The tune",
+                    "The words",
+                    "The volume"
+                  ],
+                  "answer": [
+                    0
+                  ],
+                  "explanation": "The click keeps the pulse."
+                },
+                "skippable": true
+              }
+            },
+            {
+              "id": "review-2",
+              "kind": "matchPairs",
+              "prompt": "Match each note value to its beats in 4/4.",
+              "explanation": "Half = 2, quarter rest = 1, whole = 4.",
+              "options": [
+                "Half note",
+                "Quarter rest",
+                "Whole note"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {
+                "right": [
+                  "Four beats",
+                  "Two beats",
+                  "One beat"
+                ]
+              }
+            },
+            {
+              "id": "review-3",
+              "kind": "singleSelect",
+              "prompt": "One bar of 4/4 has only three beats so far. What completes it?",
+              "explanation": "A one-beat rest brings the total to four.",
+              "options": [
+                "One quarter rest",
+                "A whole note",
+                "Three half notes",
+                "Nothing"
+              ],
+              "answer": [
+                0
+              ],
+              "content": {
+                "skippable": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "music-u1-checkpoint",
+          "title": "Unit checkpoint",
+          "subtitle": "New examples. Answer every check correctly to earn a star.",
+          "minutes": 10,
+          "deliverable": "New examples. Answer every check correctly to earn a star.",
+          "generated": true,
+          "resource_id": "music-pulse-reference",
+          "type": "checkpoint",
+          "unit_id": "music-unit-1",
+          "prerequisites": [
+            "music-u1-review"
+          ],
+          "challenges": [
+            {
+              "id": "cp1-1",
+              "kind": "singleSelect",
+              "prompt": "A song in 4/4 has a long held note over two beats, then two short sounds. How many beats so far?",
+              "explanation": "The held note covers two beats and the two short sounds take one beat each: four.",
+              "options": [
+                "Two",
+                "Three",
+                "Four",
+                "Six"
+              ],
+              "answer": [
+                2
+              ],
+              "content": {
+                "context": "transfer",
+                "skippable": true
+              }
+            },
+            {
+              "id": "cp1-2",
+              "kind": "sequenceTokens",
+              "prompt": "Order a bar of 4/4 that ends with a rest.",
+              "explanation": "Beats 1-2 are the half note, beat 3 is the quarter note, beat 4 is the rest.",
+              "options": [
+                "Quarter rest (beat 4)",
+                "Half note (beats 1-2)",
+                "Quarter note (beat 3)"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {}
+            },
+            {
+              "id": "cp1-3",
+              "kind": "matchPairs",
+              "prompt": "Match each everyday example to the musical idea.",
+              "explanation": "Steady ticks are like a pulse; a knock pattern is a rhythm; a timed pause is like a rest.",
+              "options": [
+                "A ticking clock",
+                "A knock pattern on a door",
+                "A pause before an answer"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {
+                "right": [
+                  "Rest",
+                  "Pulse",
+                  "Rhythm"
+                ],
+                "context": "transfer"
+              }
+            },
+            {
+              "id": "cp1-4",
+              "kind": "musicImitate",
+              "prompt": "Tap five steady beats at a comfortable speed.",
+              "explanation": "Even spacing shows a steady pulse. Screen taps only; audio is not graded.",
+              "options": [],
+              "answer": [],
+              "content": {}
+            }
+          ]
+        },
+        {
+          "id": "music-u1-reward",
+          "title": "Unit reward",
+          "subtitle": "A quick recap, then collect your sparks.",
+          "minutes": 8,
+          "deliverable": "A quick recap, then collect your sparks.",
+          "generated": true,
+          "resource_id": "music-pulse-reference",
+          "type": "reward_unlock",
+          "unit_id": "music-unit-1",
+          "prerequisites": [
+            "music-u1-checkpoint"
+          ],
+          "challenges": [
+            {
+              "id": "reward1-1",
+              "kind": "matchPairs",
+              "prompt": "Unit recap: match each word to its meaning.",
+              "explanation": "You can now count a pulse, measure length and shape a small phrase.",
+              "options": [
+                "Pulse",
+                "Duration",
+                "Phrase"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {
+                "right": [
+                  "A short idea across bars",
+                  "The steady beat",
+                  "How long a sound lasts"
+                ]
+              }
+            },
+            {
+              "id": "reward1-2",
+              "kind": "typedReflection",
+              "prompt": "Name one thing you can do now that you could not do at the start of this unit.",
+              "explanation": "Noticing your progress helps you choose the next step.",
+              "options": [],
+              "answer": [],
+              "content": {
+                "task": "One sentence is enough."
+              }
+            }
+          ]
+        },
+        {
+          "id": "music-pitch",
+          "title": "Follow a pitch shape",
+          "subtitle": "Separate high and low from loud and soft.",
+          "prerequisites": [
+            "music-u1-reward"
+          ],
+          "minutes": 15,
+          "deliverable": "Draw an up-down-up contour, then choose four note names that follow it. Use an instrument if available, or label a paper diagram.",
+          "resource_id": "music-pitch-video",
+          "lesson": {
+            "prompt": "A note is played more quietly without changing its frequency. Which property changes?",
+            "options": [
+              "Its pitch",
+              "Its loudness",
+              "Its note name",
+              "Its position in the scale"
+            ],
+            "correct": 1,
+            "explanation": "Playing more quietly changes loudness, not the note’s pitch.",
+            "hint": "Break the idea into one small step.",
+            "idea": "Separate high and low from loud and soft.",
+            "body": "Pitch describes how high or low a sound is; loudness is a different property. In the familiar ascending note-letter sequence, C to D to E moves upward. You can first draw that contour without singing or owning an instrument.",
+            "example": "Note names: C → D → E\nContour:    low → higher → higher",
+            "task": "Draw an up-down-up contour, then choose four note names that follow it. Use an instrument if available, or label a paper diagram."
+          },
+          "type": "micro_lesson",
+          "unit_id": "music-unit-2",
+          "challenges": [
+            {
+              "id": "pitch-1",
+              "kind": "singleSelect",
+              "prompt": "Which word describes how high or low a note sounds?",
+              "explanation": "Pitch is high or low; tempo is speed; duration is length.",
+              "options": [
+                "Tempo",
+                "Loudness",
+                "Pitch",
+                "Duration"
+              ],
+              "answer": [
+                2
+              ],
+              "content": {
+                "hint": "It is not about speed or volume.",
+                "parallel": {
+                  "prompt": "A singer moves to a higher note. Which property changed?",
+                  "options": [
+                    "Pitch",
+                    "Tempo",
+                    "Duration",
+                    "Loudness"
+                  ],
+                  "answer": [
+                    0
+                  ],
+                  "explanation": "Moving higher changes pitch."
+                },
+                "skippable": true
+              }
+            },
+            {
+              "id": "pitch-2",
+              "kind": "sequenceTokens",
+              "prompt": "Arrange these note names from low to high.",
+              "explanation": "In this register C is lowest, then D, then E.",
+              "options": [
+                "E",
+                "C",
+                "D"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {
+                "parallel": {
+                  "prompt": "Arrange from low to high.",
+                  "options": [
+                    "G",
+                    "E",
+                    "F"
+                  ],
+                  "answer": [
+                    1,
+                    2,
+                    0
+                  ],
+                  "explanation": "E, then F, then G."
+                }
+              }
+            },
+            {
+              "id": "pitch-3",
+              "kind": "drawing",
+              "prompt": "Draw an up–down–up contour and label one note name at each turn.",
+              "explanation": "A contour drawing records the shape of a melody. Sumi does not grade the drawing.",
+              "options": [],
+              "answer": [],
+              "content": {}
+            },
+            {
+              "id": "pitch-4",
+              "kind": "matchPairs",
+              "prompt": "Match each change to the property it affects.",
+              "explanation": "Quieter changes loudness; C to E changes pitch; holding changes duration.",
+              "options": [
+                "Play more quietly",
+                "Move from C to E",
+                "Hold the note longer"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {
+                "right": [
+                  "Duration",
+                  "Loudness",
+                  "Pitch"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "music-u2-video",
+          "title": "Watch and apply",
+          "subtitle": "A short video, then one question that uses it.",
+          "minutes": 10,
+          "deliverable": "A short video, then one question that uses it.",
+          "generated": true,
+          "resource_id": "music-pitch-video",
+          "type": "video_resource",
+          "unit_id": "music-unit-2",
+          "prerequisites": [
+            "music-pitch"
+          ],
+          "challenges": [
+            {
+              "id": "video2-1",
+              "kind": "mediaObservation",
+              "prompt": "Watch the pitch video, or read its summary. How does the staff show higher notes?",
+              "explanation": "Connecting position on the staff to pitch helps you read simple melodies.",
+              "options": [],
+              "answer": [],
+              "content": {
+                "reference": "The video shows notes placed higher on the staff for higher pitches and lower for lower pitches, with letter names attached.",
+                "resourceId": "music-pitch-video"
+              }
+            },
+            {
+              "id": "video2-2",
+              "kind": "singleSelect",
+              "prompt": "A note moves up one line on the staff. What usually happens to its pitch?",
+              "explanation": "Higher on the staff means higher in pitch.",
+              "options": [
+                "It gets higher",
+                "It gets lower",
+                "It gets louder",
+                "It gets longer"
+              ],
+              "answer": [
+                0
+              ],
+              "content": {
+                "parallel": {
+                  "prompt": "A note moves down the staff. What happens to its pitch?",
+                  "options": [
+                    "It gets lower",
+                    "It gets higher",
+                    "It gets quieter",
+                    "It stops"
+                  ],
+                  "answer": [
+                    0
+                  ],
+                  "explanation": "Lower on the staff means lower in pitch."
+                },
+                "skippable": true
+              }
+            },
+            {
+              "id": "video2-3",
+              "kind": "typedReflection",
+              "prompt": "Describe the shape of a melody you know: does it start by going up or down?",
+              "explanation": "Describing contour in words is a first step toward reading it.",
+              "options": [],
+              "answer": [],
+              "content": {
+                "task": "One or two sentences."
+              }
+            }
+          ]
+        },
+        {
+          "id": "music-practice",
+          "title": "Practise one clear target",
+          "subtitle": "Choose accuracy before increasing speed.",
+          "prerequisites": [
+            "music-u2-video"
+          ],
+          "minutes": 15,
+          "deliverable": "Try your two-bar pattern twice. Record one specific difficulty and one change you made. The app does not listen or automatically score your performance.",
+          "resource_id": "music-practice-reference",
+          "lesson": {
+            "prompt": "What best supports a useful practice reflection?",
+            "options": [
+              "A specific observation about one attempt",
+              "Only a streak number",
+              "An unexplained grade",
+              "The fastest possible tempo"
+            ],
+            "correct": 0,
+            "explanation": "A specific observation suggests a practical next adjustment.",
+            "hint": "Break the idea into one small step.",
+            "idea": "Choose accuracy before increasing speed.",
+            "body": "Set a small observable target, such as keeping a pattern even for two repetitions. Choose a speed at which you can do that comfortably. Isolate the difficult section and repeat it before joining the full phrase. A slower clean version is useful evidence.",
+            "example": "Target: two even repetitions\nObserve: where did the pulse change?\nAdjust: slow down and isolate that point",
+            "task": "Try your two-bar pattern twice. Record one specific difficulty and one change you made. The app does not listen or automatically score your performance."
+          },
+          "type": "guided_practice",
+          "unit_id": "music-unit-2",
+          "challenges": [
+            {
+              "id": "practice-1",
+              "kind": "singleSelect",
+              "prompt": "A pattern becomes uneven at a fast tempo. What is a useful next step?",
+              "explanation": "A slower, focused repetition makes the difficulty easier to notice and fix.",
+              "options": [
+                "Speed up again",
+                "Slow down and isolate the hard part",
+                "Ignore timing",
+                "Only play louder"
+              ],
+              "answer": [
+                1
+              ],
+              "content": {
+                "hint": "Which choice gives you more time to notice what happens?",
+                "parallel": {
+                  "prompt": "You keep stumbling on bar 3. What should you practise?",
+                  "options": [
+                    "Bar 3 slowly on its own",
+                    "The whole piece faster",
+                    "Only bar 1",
+                    "Nothing"
+                  ],
+                  "answer": [
+                    0
+                  ],
+                  "explanation": "Isolating the difficult bar at a slower speed targets the problem."
+                },
+                "skippable": true
+              }
+            },
+            {
+              "id": "practice-2",
+              "kind": "sequenceTokens",
+              "prompt": "Put this practice loop in order.",
+              "explanation": "Set a target, try it, notice what happened, then adjust one thing.",
+              "options": [
+                "Adjust one thing",
+                "Set a small target",
+                "Try it twice",
+                "Notice what changed"
+              ],
+              "answer": [
+                1,
+                2,
+                3,
+                0
+              ],
+              "content": {}
+            },
+            {
+              "id": "practice-3",
+              "kind": "musicImitate",
+              "prompt": "Tap five steady beats slowly, as if practising carefully.",
+              "explanation": "Slower, even taps show control. Screen taps only; audio is not graded.",
+              "options": [],
+              "answer": [],
+              "content": {}
+            },
+            {
+              "id": "practice-4",
+              "kind": "singleSelect",
+              "prompt": "Which practice goal is easiest to check?",
+              "explanation": "A short observable target gives you something concrete to compare.",
+              "options": [
+                "Become amazing today",
+                "Be more musical",
+                "Keep four bars even twice in a row",
+                "Never make a mistake"
+              ],
+              "answer": [
+                2
+              ],
+              "content": {
+                "skippable": true
+              }
+            },
+            {
+              "id": "practice-5",
+              "kind": "typedReflection",
+              "prompt": "Record one difficulty and one change you made.",
+              "explanation": "A specific observation suggests your next adjustment.",
+              "options": [],
+              "answer": [],
+              "content": {
+                "task": "Try your two-bar pattern twice, then write what was hard and what you changed."
+              }
+            }
+          ]
+        },
+        {
+          "id": "music-create",
+          "title": "Make and review your own idea",
+          "subtitle": "Combine pulse, length, and reflection.",
+          "prerequisites": [
+            "music-practice"
+          ],
+          "minutes": 15,
+          "deliverable": "Make an original four-bar rhythm, mark one rest, and write a two-sentence review of its timing. Use paper, clapping, or an instrument.",
+          "resource_id": "music-create-reference",
+          "lesson": {
+            "prompt": "Which review leads most directly to a next action?",
+            "options": [
+              "It was bad",
+              "I am done forever",
+              "Bar three rushed; repeat it more slowly",
+              "The file name is long"
+            ],
+            "correct": 2,
+            "explanation": "It identifies a location, an observable issue, and a concrete practice step.",
+            "hint": "Break the idea into one small step.",
+            "idea": "Combine pulse, length, and reflection.",
+            "body": "Make a short original pattern using ideas you can explain. Count each bar, perform it twice, and compare the attempts. A recording can help you notice timing, but the review is yours: this prototype does not judge audio or musical expression.",
+            "example": "Create → count → perform → compare → change one thing",
+            "task": "Make an original four-bar rhythm, mark one rest, and write a two-sentence review of its timing. Use paper, clapping, or an instrument."
+          },
+          "type": "project_step",
+          "unit_id": "music-unit-2",
+          "challenges": [
+            {
+              "id": "create-1",
+              "kind": "singleSelect",
+              "prompt": "Which check is most useful before performing a new 4/4 rhythm?",
+              "explanation": "Checking each bar’s total confirms the rhythm fits the meter.",
+              "options": [
+                "Its title has four words",
+                "Every bar totals four beats",
+                "Every sound is loud",
+                "There are no rests"
+              ],
+              "answer": [
+                1
+              ],
+              "content": {
+                "parallel": {
+                  "prompt": "Before sharing a new 3/4 rhythm, what should each bar total?",
+                  "options": [
+                    "Two beats",
+                    "Three beats",
+                    "Four beats",
+                    "Six beats"
+                  ],
+                  "answer": [
+                    1
+                  ],
+                  "explanation": "In 3/4 each bar holds three beats."
+                },
+                "skippable": true
+              }
+            },
+            {
+              "id": "create-2",
+              "kind": "matchPairs",
+              "prompt": "Match each review note to what it tells you.",
+              "explanation": "Good reviews say where, what helped, and what to do next.",
+              "options": [
+                "Bar three rushed",
+                "I slowed down and it was steadier",
+                "Next: repeat bar three slowly"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {
+                "right": [
+                  "A next action",
+                  "Where the problem was",
+                  "What helped this attempt"
+                ]
+              }
+            },
+            {
+              "id": "create-3",
+              "kind": "projectReflection",
+              "prompt": "Make an original four-bar rhythm and review it.",
+              "explanation": "Your project evidence is saved as your own report. Sumi does not listen to or grade the performance.",
+              "options": [],
+              "answer": [],
+              "content": {
+                "task": "Use paper, clapping or an instrument. Mark one rest, perform it twice and compare the attempts.",
+                "rubric": [
+                  "Every bar adds to four",
+                  "One rest is marked",
+                  "Performed twice",
+                  "One change named"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "music-u2-checkpoint",
+          "title": "Unit checkpoint",
+          "subtitle": "New examples. Answer every check correctly to earn a star.",
+          "minutes": 10,
+          "deliverable": "New examples. Answer every check correctly to earn a star.",
+          "generated": true,
+          "resource_id": "music-pitch-reference",
+          "type": "checkpoint",
+          "unit_id": "music-unit-2",
+          "prerequisites": [
+            "music-create"
+          ],
+          "challenges": [
+            {
+              "id": "cp2-1",
+              "kind": "singleSelect",
+              "prompt": "A phone ringtone goes low, high, low. What is its contour?",
+              "explanation": "Low to high is up; high to low is down.",
+              "options": [
+                "Up then down",
+                "Down then up",
+                "Flat",
+                "Always rising"
+              ],
+              "answer": [
+                0
+              ],
+              "content": {
+                "context": "transfer",
+                "skippable": true
+              }
+            },
+            {
+              "id": "cp2-2",
+              "kind": "sequenceTokens",
+              "prompt": "Order these steps to fix a rushed bar.",
+              "explanation": "Find the bar, practise it slowly, then rejoin the phrase.",
+              "options": [
+                "Join it back into the phrase",
+                "Play the bar slowly alone",
+                "Find which bar rushed"
+              ],
+              "answer": [
+                2,
+                1,
+                0
+              ],
+              "content": {}
+            },
+            {
+              "id": "cp2-3",
+              "kind": "matchPairs",
+              "prompt": "Match each situation to the best practice move.",
+              "explanation": "Fix accuracy first, then timing, and only then speed.",
+              "options": [
+                "Notes are wrong",
+                "Timing is uneven",
+                "It sounds right twice"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {
+                "right": [
+                  "Try a slightly faster tempo",
+                  "Check the note names slowly",
+                  "Slow down and count aloud"
+                ],
+                "context": "transfer"
+              }
+            },
+            {
+              "id": "cp2-4",
+              "kind": "singleSelect",
+              "prompt": "A melody is played louder but on the same notes. What changed?",
+              "explanation": "Volume changed; pitch and contour did not.",
+              "options": [
+                "Loudness",
+                "Pitch",
+                "The note names",
+                "The contour"
+              ],
+              "answer": [
+                0
+              ],
+              "content": {
+                "skippable": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "music-u2-reward",
+          "title": "Unit reward",
+          "subtitle": "A quick recap, then collect your sparks.",
+          "minutes": 8,
+          "deliverable": "A quick recap, then collect your sparks.",
+          "generated": true,
+          "resource_id": "music-pitch-reference",
+          "type": "reward_unlock",
+          "unit_id": "music-unit-2",
+          "prerequisites": [
+            "music-u2-checkpoint"
+          ],
+          "challenges": [
+            {
+              "id": "reward2-1",
+              "kind": "matchPairs",
+              "prompt": "Unit recap: match each skill to an example.",
+              "explanation": "You can now follow pitch, practise with a target and make your own idea.",
+              "options": [
+                "Pitch",
+                "Practice",
+                "Creating"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {
+                "right": [
+                  "Write and review your own rhythm",
+                  "Hear that E is higher than C",
+                  "Slow down to fix bar three"
+                ]
+              }
+            },
+            {
+              "id": "reward2-2",
+              "kind": "typedReflection",
+              "prompt": "What would you like to make next with what you learned?",
+              "explanation": "A next goal keeps practice connected to what you want to do.",
+              "options": [],
+              "answer": [],
+              "content": {
+                "task": "One sentence is enough."
+              }
+            }
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "id": "music-pulse-video",
+          "content_version": 1,
+          "canonical_url": "https://www.youtube.com/watch?v=218y13l9_4c",
+          "provider_id": "youtube",
+          "title": "Understanding Pulse, Beat, and Time Signatures",
+          "publisher": "Music Theory Academy",
+          "creator": "Music Theory Academy",
+          "type": "video",
+          "discipline": "music",
+          "capability_tags": [
+            "music-pulse",
+            "music-duration"
+          ],
+          "level": "Foundations",
+          "prerequisites": [],
+          "duration_minutes": 6,
+          "language": "en",
+          "has_captions": true,
+          "cost_type": "free",
+          "bandwidth_type": "high",
+          "reviewed_status": "reviewed",
+          "reviewed_at": "2026-10-28T00:00:00Z",
+          "provenance": "Human-reviewed YouTube educational lesson",
+          "license_note": "Standard YouTube License - Open Educational Viewing",
+          "safety_flags": [],
+          "why_it_helps": "Visually demonstrates how a steady pulse stays constant while note lengths change above it.",
+          "check_activity_id": "music-pulse",
+          "description": "A clear video introduction to finding and counting a steady musical pulse."
+        },
+        {
+          "id": "music-pitch-video",
+          "content_version": 1,
+          "canonical_url": "https://www.youtube.com/watch?v=33G_3T3fN00",
+          "provider_id": "youtube",
+          "title": "Understanding Pitch, Staff Lines, and Notes",
+          "publisher": "Music Theory Academy",
+          "creator": "Music Theory Academy",
+          "type": "video",
+          "discipline": "music",
+          "capability_tags": [
+            "music-pitch",
+            "music-phrase"
+          ],
+          "level": "Foundations",
+          "prerequisites": [
+            "music-pulse"
+          ],
+          "duration_minutes": 8,
+          "language": "en",
+          "has_captions": true,
+          "cost_type": "free",
+          "bandwidth_type": "high",
+          "reviewed_status": "reviewed",
+          "reviewed_at": "2026-10-28T00:00:00Z",
+          "provenance": "Human-reviewed YouTube educational lesson",
+          "license_note": "Standard YouTube License - Open Educational Viewing",
+          "safety_flags": [],
+          "why_it_helps": "Shows note contours on staff lines and contrasts high/low pitch with volume changes.",
+          "check_activity_id": "music-pitch",
+          "description": "A visual guide to pitch contours, note pitch names, and staff notation."
+        },
+        {
+          "id": "music-pulse-reference",
+          "content_version": 1,
+          "canonical_url": "https://viva.pressbooks.pub/openmusictheory/chapter/simple-meter-and-time-signatures/",
+          "provider_id": "pressbooks",
+          "title": "Beat, grouping, and simple meter",
+          "publisher": "Open Music Theory",
+          "creator": "Open Music Theory Editorial Team",
+          "type": "article",
+          "discipline": "music",
+          "capability_tags": [
+            "music-pulse",
+            "music-phrase"
+          ],
+          "level": "Foundations",
+          "prerequisites": [],
+          "duration_minutes": 10,
+          "language": "en",
+          "has_captions": false,
+          "cost_type": "free",
+          "bandwidth_type": "low",
+          "reviewed_status": "reviewed",
+          "reviewed_at": "2026-10-28T00:00:00Z",
+          "provenance": "Open Music Theory Open Educational Resource",
+          "license_note": "CC BY-SA 4.0",
+          "safety_flags": [],
+          "why_it_helps": "Text and notation diagrams explaining pulse, beat division, and bar lines.",
+          "check_activity_id": "music-pulse",
+          "description": "Foundational open text reference on meter and beat grouping."
+        },
+        {
+          "id": "music-duration-reference",
+          "content_version": 1,
+          "canonical_url": "https://www.musictheory.net/lessons/11",
+          "provider_id": "musictheory_net",
+          "title": "Note duration and rests",
+          "publisher": "musictheory.net",
+          "creator": "musictheory.net Team",
+          "type": "article",
+          "discipline": "music",
+          "capability_tags": [
+            "music-duration"
+          ],
+          "level": "Foundations",
+          "prerequisites": [
+            "music-pulse"
+          ],
+          "duration_minutes": 10,
+          "language": "en",
+          "has_captions": false,
+          "cost_type": "free",
+          "bandwidth_type": "low",
+          "reviewed_status": "reviewed",
+          "reviewed_at": "2026-10-28T00:00:00Z",
+          "provenance": "musictheory.net Lessons",
+          "license_note": "Educational Reference Use",
+          "safety_flags": [],
+          "why_it_helps": "Interactive diagrams explaining quarter notes, half notes, and counting silence.",
+          "check_activity_id": "music-duration",
+          "description": "Interactive reference guide to musical note lengths."
+        },
+        {
+          "id": "music-pitch-reference",
+          "content_version": 1,
+          "canonical_url": "https://www.musictheory.net/lessons/10",
+          "provider_id": "musictheory_net",
+          "title": "Staff, note names, and pitch",
+          "publisher": "musictheory.net",
+          "creator": "musictheory.net Team",
+          "type": "article",
+          "discipline": "music",
+          "capability_tags": [
+            "music-pitch"
+          ],
+          "level": "Foundations",
+          "prerequisites": [
+            "music-duration"
+          ],
+          "duration_minutes": 10,
+          "language": "en",
+          "has_captions": false,
+          "cost_type": "free",
+          "bandwidth_type": "low",
+          "reviewed_status": "reviewed",
+          "reviewed_at": "2026-10-28T00:00:00Z",
+          "provenance": "musictheory.net Lessons",
+          "license_note": "Educational Reference Use",
+          "safety_flags": [],
+          "why_it_helps": "Clear staff notation guide identifying note pitch letters.",
+          "check_activity_id": "music-pitch",
+          "description": "Interactive guide to pitch height and staff notation."
+        },
+        {
+          "id": "music-phrase-reference",
+          "content_version": 1,
+          "canonical_url": "https://viva.pressbooks.pub/openmusictheory/chapter/simple-meter-and-time-signatures/",
+          "provider_id": "pressbooks",
+          "title": "Bars and time signatures",
+          "publisher": "Open Music Theory",
+          "creator": "Open Music Theory Editorial Team",
+          "type": "article",
+          "discipline": "music",
+          "capability_tags": [
+            "music-phrase"
+          ],
+          "level": "Foundations",
+          "prerequisites": [
+            "music-pitch"
+          ],
+          "duration_minutes": 10,
+          "language": "en",
+          "has_captions": false,
+          "cost_type": "free",
+          "bandwidth_type": "low",
+          "reviewed_status": "reviewed",
+          "reviewed_at": "2026-10-28T00:00:00Z",
+          "provenance": "Open Music Theory Open Educational Resource",
+          "license_note": "CC BY-SA 4.0",
+          "safety_flags": [],
+          "why_it_helps": "Guides structuring small note phrases across bar measures.",
+          "check_activity_id": "music-phrase",
+          "description": "Text reference on grouping note phrases into measures."
+        },
+        {
+          "id": "music-practice-reference",
+          "content_version": 1,
+          "canonical_url": "https://viva.pressbooks.pub/openmusictheory/part/ear-training/",
+          "provider_id": "pressbooks",
+          "title": "Counting and practice examples",
+          "publisher": "Open Music Theory",
+          "creator": "Open Music Theory Editorial Team",
+          "type": "article",
+          "discipline": "music",
+          "capability_tags": [
+            "music-practice"
+          ],
+          "level": "Foundations",
+          "prerequisites": [
+            "music-phrase"
+          ],
+          "duration_minutes": 10,
+          "language": "en",
+          "has_captions": false,
+          "cost_type": "free",
+          "bandwidth_type": "low",
+          "reviewed_status": "reviewed",
+          "reviewed_at": "2026-10-28T00:00:00Z",
+          "provenance": "Open Music Theory Open Educational Resource",
+          "license_note": "CC BY-SA 4.0",
+          "safety_flags": [],
+          "why_it_helps": "Offers strategies for slow repetition and isolating difficult rhythm passages.",
+          "check_activity_id": "music-practice",
+          "description": "Practical ear training and rhythm repetition guide."
+        },
+        {
+          "id": "music-create-reference",
+          "content_version": 1,
+          "canonical_url": "https://viva.pressbooks.pub/openmusictheory/part/ear-training/",
+          "provider_id": "pressbooks",
+          "title": "Applying and reviewing musical patterns",
+          "publisher": "Open Music Theory",
+          "creator": "Open Music Theory Editorial Team",
+          "type": "article",
+          "discipline": "music",
+          "capability_tags": [
+            "music-create"
+          ],
+          "level": "Foundations",
+          "prerequisites": [
+            "music-practice"
+          ],
+          "duration_minutes": 10,
+          "language": "en",
+          "has_captions": false,
+          "cost_type": "free",
+          "bandwidth_type": "low",
+          "reviewed_status": "reviewed",
+          "reviewed_at": "2026-10-28T00:00:00Z",
+          "provenance": "Open Music Theory Open Educational Resource",
+          "license_note": "CC BY-SA 4.0",
+          "safety_flags": [],
+          "why_it_helps": "Guides reviewing original compositions against timing criteria.",
+          "check_activity_id": "music-create",
+          "description": "Guide to self-reviewing rhythm compositions."
+        }
+      ],
+      "calibration": [
+        {
+          "day": 1,
+          "title": "Choose, assess, and try",
+          "kind": "baseline",
+          "description": "Choose your discipline and goal. Complete the six-question baseline, try a project step, and download an optional phone model."
+        },
+        {
+          "day": 2,
+          "title": "Return, recall, and review",
+          "kind": "recall",
+          "description": "Try six new examples, compare your work, test the coach with connectivity off, and record usability feedback. An early check-in is labelled as an accelerated demo."
+        }
+      ],
+      "units": [
+        {
+          "id": "music-unit-1",
+          "title": "Pulse, length and phrase",
+          "outcome": "Count a steady pulse and build complete bars.",
+          "palette": 0,
+          "guide": {
+            "key_ideas": [
+              "The pulse is a steady beat; rhythm sits on top of it.",
+              "In 4/4 a quarter note is one beat, a half note two, a whole note four.",
+              "A rest still takes time, so keep counting.",
+              "A phrase is a short idea across bars: repeat, then change one thing."
+            ],
+            "watch": [
+              "music-pulse-video"
+            ],
+            "reference": [
+              "music-pulse-reference",
+              "music-duration-reference",
+              "music-phrase-reference"
+            ],
+            "tryit": "Clap two bars of 4/4 with one rest while tapping the pulse with your foot."
+          }
+        },
+        {
+          "id": "music-unit-2",
+          "title": "Pitch, practice and your own idea",
+          "outcome": "Follow a pitch shape and practise toward a small original rhythm.",
+          "palette": 1,
+          "guide": {
+            "key_ideas": [
+              "Pitch is high or low; loudness is separate.",
+              "Higher on the staff means higher in pitch.",
+              "Practise slowly with one observable target.",
+              "Review where, what helped, and what to try next."
+            ],
+            "watch": [
+              "music-pitch-video"
+            ],
+            "reference": [
+              "music-pitch-reference",
+              "music-practice-reference",
+              "music-create-reference"
+            ],
+            "tryit": "Make a four-bar rhythm with one rest, perform it twice and note one change."
+          }
+        }
+      ],
+      "evidence_categories": [
+        "concept",
+        "rhythm screen taps",
+        "resource observation",
+        "reflection"
+      ],
+      "celebration": "rhythm",
+      "default_accolade": "listening",
+      "scene": "music",
+      "preview_capabilities": [
+        "Count a steady pulse and write complete bars in 4/4.",
+        "Make and review a short original rhythm you can perform.",
+        "Practise with a clear target and notice what to change."
+      ],
+      "outcome_chips": [
+        "Keep a steady rhythm",
+        "Write a four-bar pattern",
+        "Understand basic notation",
+        "Practise a song effectively"
+      ]
+    },
+    {
+      "id": "fashion",
+      "title": "Fashion Design & Tailoring",
+      "description": "A starter check of design briefs, fabrics, measurement, patterns, sample seams, and quality review. Practical work is self-reported.",
+      "goal_hint": "What would you like to design or make?",
+      "project": "A labelled design brief and paper mockup or scrap sample, reviewed against your chosen purpose.",
+      "questions": [
+        {
+          "prompt": "Which detail belongs in a useful design brief?",
+          "options": [
+            "Only the designer’s favourite color",
+            "Intended use and wearer’s needs",
+            "Only a brand name",
+            "A final price without context"
+          ],
+          "correct": 1,
+          "explanation": "Use and wearer needs give the design decisions a clear purpose.",
+          "hint": "Break the idea into one small step.",
+          "id": "fashion-brief-baseline",
+          "skill": "fashion-brief",
+          "label": "Turn an idea into a brief",
+          "resource_id": "fashion-brief-video"
+        },
+        {
+          "prompt": "On a woven fabric, the lengthwise grain generally runs…",
+          "options": [
+            "Diagonally to the selvage",
+            "Parallel to the selvage",
+            "Only around a curved edge",
+            "In no direction"
+          ],
+          "correct": 1,
+          "explanation": "The lengthwise grain follows the warp direction, parallel to the selvage.",
+          "hint": "Break the idea into one small step.",
+          "id": "fashion-fabric-baseline",
+          "skill": "fashion-fabric",
+          "label": "Understand your material",
+          "resource_id": "fashion-fabric-reference"
+        },
+        {
+          "prompt": "Which measurement record is clearest?",
+          "options": [
+            "Width: 12",
+            "Width: 12 cm",
+            "Something about 12",
+            "Size: nice"
+          ],
+          "correct": 1,
+          "explanation": "A named dimension and unit make the record usable and repeatable.",
+          "hint": "Break the idea into one small step.",
+          "id": "fashion-measure-baseline",
+          "skill": "fashion-measure",
+          "label": "Measure with a clear record",
+          "resource_id": "fashion-measure-reference"
+        },
+        {
+          "prompt": "What is a seam allowance?",
+          "options": [
+            "Extra fabric between stitch line and cut edge",
+            "Only a decorative line",
+            "The whole garment width",
+            "A universal pattern size"
+          ],
+          "correct": 0,
+          "explanation": "It is the width provided outside the stitching line to construct the seam.",
+          "hint": "Break the idea into one small step.",
+          "id": "fashion-pattern-baseline",
+          "skill": "fashion-pattern",
+          "label": "Separate stitching from cutting",
+          "resource_id": "fashion-pattern-reference"
+        },
+        {
+          "prompt": "Why make a seam sample on scrap first?",
+          "options": [
+            "To skip checking fit forever",
+            "To test the join and settings before final fabric",
+            "To remove all seam allowance",
+            "To hide the stitch line"
+          ],
+          "correct": 1,
+          "explanation": "A sample helps reveal construction problems before using the final pieces.",
+          "hint": "Break the idea into one small step.",
+          "id": "fashion-seam-baseline",
+          "skill": "fashion-seam",
+          "label": "Make a controlled sample seam",
+          "resource_id": "fashion-seam-video"
+        },
+        {
+          "prompt": "What should guide an edge finish?",
+          "options": [
+            "Only which method is fastest",
+            "The fabric, construction, and intended use",
+            "A random seam width",
+            "Only the date"
+          ],
+          "correct": 1,
+          "explanation": "The material and intended use influence a suitable finish.",
+          "hint": "Break the idea into one small step.",
+          "id": "fashion-finish-baseline",
+          "skill": "fashion-finish",
+          "label": "Finish, inspect, and refine",
+          "resource_id": "fashion-finish-reference"
+        }
+      ],
+      "recall_questions": [
+        {
+          "prompt": "A bag is intended for carrying sketchbooks. What should guide its dimensions?",
+          "options": [
+            "The sketchbooks and how it will be carried",
+            "A random number",
+            "Only the thread color",
+            "The date"
+          ],
+          "correct": 0,
+          "explanation": "The intended contents and use should inform the design dimensions.",
+          "hint": "Break the idea into one small step.",
+          "id": "fashion-brief-recall",
+          "skill": "fashion-brief",
+          "label": "Turn an idea into a brief",
+          "resource_id": "fashion-brief-video"
+        },
+        {
+          "prompt": "A pattern recommends a stretch knit. What should you check before substituting fabric?",
+          "options": [
+            "Only its color",
+            "Its price tag font",
+            "Its stretch and behavior",
+            "Only its packaging"
+          ],
+          "correct": 2,
+          "explanation": "Changing stretch can change fit and construction, even when colors match.",
+          "hint": "Break the idea into one small step.",
+          "id": "fashion-fabric-recall",
+          "skill": "fashion-fabric",
+          "label": "Understand your material",
+          "resource_id": "fashion-fabric-reference"
+        },
+        {
+          "prompt": "One measurement is in inches and another in centimeters. What should you do before comparing?",
+          "options": [
+            "Assume they match",
+            "Choose the bigger numeral",
+            "Convert to the same unit",
+            "Ignore both labels"
+          ],
+          "correct": 2,
+          "explanation": "A common unit is needed for a meaningful numerical comparison.",
+          "hint": "Break the idea into one small step.",
+          "id": "fashion-measure-recall",
+          "skill": "fashion-measure",
+          "label": "Measure with a clear record",
+          "resource_id": "fashion-measure-reference"
+        },
+        {
+          "prompt": "A finished width is 12 cm with 1 cm allowance on each side. What is the cut width?",
+          "options": [
+            "12 cm",
+            "13 cm",
+            "14 cm",
+            "24 cm"
+          ],
+          "correct": 2,
+          "explanation": "Add one centimeter on the left and one on the right: fourteen centimeters.",
+          "hint": "Break the idea into one small step.",
+          "id": "fashion-pattern-recall",
+          "skill": "fashion-pattern",
+          "label": "Separate stitching from cutting",
+          "resource_id": "fashion-pattern-reference"
+        },
+        {
+          "prompt": "A seam sample puckers. What is a sensible next step?",
+          "options": [
+            "Use it on every final piece anyway",
+            "Check fabric handling and stitch settings on another scrap",
+            "Cut away the whole allowance",
+            "Stop recording observations"
+          ],
+          "correct": 1,
+          "explanation": "A controlled scrap test helps identify and adjust the cause before final construction.",
+          "hint": "Break the idea into one small step.",
+          "id": "fashion-seam-recall",
+          "skill": "fashion-seam",
+          "label": "Make a controlled sample seam",
+          "resource_id": "fashion-seam-video"
+        },
+        {
+          "prompt": "Which final review best checks the design intention?",
+          "options": [
+            "Compare the item with the original brief and observed use",
+            "Only count the tools",
+            "Ignore the sample",
+            "Remove all labels"
+          ],
+          "correct": 0,
+          "explanation": "The brief provides concrete intentions against which you can review the result.",
+          "hint": "Break the idea into one small step.",
+          "id": "fashion-finish-recall",
+          "skill": "fashion-finish",
+          "label": "Finish, inspect, and refine",
+          "resource_id": "fashion-finish-reference"
+        }
+      ],
+      "skills": [
+        {
+          "id": "fashion-brief",
+          "title": "Turn an idea into a brief",
+          "subtitle": "Name the wearer, use, and design intention.",
+          "prerequisites": [],
+          "minutes": 15,
+          "deliverable": "Write a three-line brief for an accessory or garment of your choice. Sketch its front and label two features.",
+          "resource_id": "fashion-brief-video",
+          "lesson": {
+            "prompt": "Which sketch note best connects a feature to its purpose?",
+            "options": [
+              "Add something nice",
+              "A wider opening lets the notebook slide in",
+              "Make every detail larger",
+              "No labels are needed"
+            ],
+            "correct": 1,
+            "explanation": "It explains why a feature is included and what it should achieve.",
+            "hint": "Break the idea into one small step.",
+            "idea": "Name the wearer, use, and design intention.",
+            "body": "A design brief connects appearance to use. Describe who the item is for, when it will be used, and two useful constraints. Sketch the overall silhouette and label the features that serve your intention. A beautiful detail still needs a reason within the design.",
+            "example": "Use: everyday carry\nNeeds: easy opening + durable edge\nSketch: shape, opening, and construction notes",
+            "task": "Write a three-line brief for an accessory or garment of your choice. Sketch its front and label two features."
+          },
+          "type": "micro_lesson",
+          "unit_id": "fashion-unit-1",
+          "challenges": [
+            {
+              "id": "brief-1",
+              "kind": "singleSelect",
+              "prompt": "Which detail belongs in a useful design brief?",
+              "explanation": "Use and wearer needs give each design decision a purpose.",
+              "options": [
+                "Only a favourite colour",
+                "The intended use and the wearer’s needs",
+                "Only a brand name",
+                "A price with no context"
+              ],
+              "answer": [
+                1
+              ],
+              "content": {
+                "hint": "What would help someone decide the size and features?",
+                "parallel": {
+                  "prompt": "Which line makes a brief more useful?",
+                  "options": [
+                    "For carrying two sketchbooks every day",
+                    "It should be nice",
+                    "Blue",
+                    "Expensive"
+                  ],
+                  "answer": [
+                    0
+                  ],
+                  "explanation": "A stated use tells you what the design must do."
+                },
+                "skippable": true
+              }
+            },
+            {
+              "id": "brief-2",
+              "kind": "matchPairs",
+              "prompt": "Match each brief line to what it decides.",
+              "explanation": "A brief names the wearer, the use and the constraints.",
+              "options": [
+                "Who it is for",
+                "When it is used",
+                "A constraint"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {
+                "right": [
+                  "Must fold flat for travel",
+                  "A student carrying notebooks",
+                  "Daily commute"
+                ],
+                "parallel": {
+                  "prompt": "Match each note to its role in a brief.",
+                  "options": [
+                    "Wearer",
+                    "Occasion",
+                    "Limit"
+                  ],
+                  "answer": [
+                    2,
+                    0,
+                    1
+                  ],
+                  "explanation": "Wearer, occasion and limits each shape the design.",
+                  "content": {
+                    "right": [
+                      "Evening event",
+                      "Under 3 metres of fabric",
+                      "A child aged six"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "brief-3",
+              "kind": "drawing",
+              "prompt": "Sketch the front of your item and label two features.",
+              "explanation": "A labelled sketch records your plan. Sumi does not inspect drawings or garments.",
+              "options": [],
+              "answer": [],
+              "content": {}
+            },
+            {
+              "id": "brief-4",
+              "kind": "singleSelect",
+              "prompt": "Which sketch note best links a feature to its purpose?",
+              "explanation": "It explains why the feature exists and what it should achieve.",
+              "options": [
+                "Add something nice",
+                "A wider opening lets the notebook slide in",
+                "Make every detail bigger",
+                "No labels needed"
+              ],
+              "answer": [
+                1
+              ],
+              "content": {
+                "skippable": true
+              }
+            },
+            {
+              "id": "brief-5",
+              "kind": "typedReflection",
+              "prompt": "Write a three-line brief for an item of your choice.",
+              "explanation": "A short, specific brief guides every later decision.",
+              "options": [],
+              "answer": [],
+              "content": {
+                "task": "Line 1: who it is for. Line 2: when it is used. Line 3: one constraint."
+              }
+            }
+          ]
+        },
+        {
+          "id": "fashion-u1-video",
+          "title": "Watch and apply",
+          "subtitle": "A short video, then one question that uses it.",
+          "minutes": 10,
+          "deliverable": "A short video, then one question that uses it.",
+          "generated": true,
+          "resource_id": "fashion-brief-video",
+          "type": "video_resource",
+          "unit_id": "fashion-unit-1",
+          "prerequisites": [
+            "fashion-brief"
+          ],
+          "challenges": [
+            {
+              "id": "fvideo-1",
+              "kind": "mediaObservation",
+              "prompt": "Watch the brief and sketching video, or read its summary. What does the designer write before sketching?",
+              "explanation": "Writing the brief first keeps the sketch purposeful.",
+              "options": [],
+              "answer": [],
+              "content": {
+                "reference": "The video starts with a written brief (who, when, why) and only then sketches the silhouette with labelled features.",
+                "resourceId": "fashion-brief-video"
+              }
+            },
+            {
+              "id": "fvideo-2",
+              "kind": "singleSelect",
+              "prompt": "Why write the brief before sketching?",
+              "explanation": "The brief gives each feature a purpose to check against.",
+              "options": [
+                "So each sketched feature has a reason",
+                "Because sketches are not allowed",
+                "To skip measuring",
+                "To choose a brand"
+              ],
+              "answer": [
+                0
+              ],
+              "content": {
+                "parallel": {
+                  "prompt": "A designer sketches a pocket. What should the brief tell them?",
+                  "options": [
+                    "What the pocket must hold",
+                    "The designer’s age",
+                    "The shop name",
+                    "Nothing"
+                  ],
+                  "answer": [
+                    0
+                  ],
+                  "explanation": "The brief says what the feature must do."
+                },
+                "skippable": true
+              }
+            },
+            {
+              "id": "fvideo-3",
+              "kind": "typedReflection",
+              "prompt": "Name one feature you would label on your own sketch and why.",
+              "explanation": "Linking a feature to its purpose is the core of a brief.",
+              "options": [],
+              "answer": [],
+              "content": {
+                "task": "One sentence."
+              }
+            }
+          ]
+        },
+        {
+          "id": "fashion-fabric",
+          "title": "Understand your material",
+          "subtitle": "Notice structure, stretch, and grain.",
+          "prerequisites": [
+            "fashion-u1-video"
+          ],
+          "minutes": 15,
+          "deliverable": "Compare two fabric scraps or written fabric descriptions. Record stretch, thickness, and whether the edge frays. Explain which suits your brief.",
+          "resource_id": "fashion-fabric-reference",
+          "lesson": {
+            "prompt": "Which comparison is useful when choosing fabric for a structured item?",
+            "options": [
+              "Only the shop name",
+              "Drape, thickness, and stability",
+              "Only the roll length",
+              "Only the label color"
+            ],
+            "correct": 1,
+            "explanation": "These properties affect how the item holds its shape and can be constructed.",
+            "hint": "Break the idea into one small step.",
+            "idea": "Notice structure, stretch, and grain.",
+            "body": "Fabric choice changes how an item hangs and holds a seam. Compare the stretch and feel of a woven and a knit if you have scraps. On woven fabric, the lengthwise grain runs parallel to the selvage. Follow a pattern’s grainline and fabric recommendations rather than treating every material alike.",
+            "example": "Woven fabric: selvage ║ lengthwise grain\nCompare: stretch, thickness, drape, fraying",
+            "task": "Compare two fabric scraps or written fabric descriptions. Record stretch, thickness, and whether the edge frays. Explain which suits your brief."
+          },
+          "type": "micro_lesson",
+          "unit_id": "fashion-unit-1",
+          "challenges": [
+            {
+              "id": "fabric-1",
+              "kind": "singleSelect",
+              "prompt": "On a woven fabric, the lengthwise grain runs…",
+              "explanation": "The lengthwise grain runs parallel to the selvage.",
+              "options": [
+                "Diagonally to the selvage",
+                "Parallel to the selvage",
+                "Only around curves",
+                "In no direction"
+              ],
+              "answer": [
+                1
+              ],
+              "content": {
+                "hint": "The selvage is the finished edge of the fabric.",
+                "parallel": {
+                  "prompt": "Which edge does the lengthwise grain follow?",
+                  "options": [
+                    "The selvage",
+                    "The cut edge",
+                    "A diagonal fold",
+                    "Any edge"
+                  ],
+                  "answer": [
+                    0
+                  ],
+                  "explanation": "It follows the selvage, the woven finished edge."
+                },
+                "skippable": true
+              }
+            },
+            {
+              "id": "fabric-2",
+              "kind": "matchPairs",
+              "prompt": "Match each fabric property to what it affects.",
+              "explanation": "Stretch affects fit, thickness affects body, fraying affects edge finishing.",
+              "options": [
+                "Stretch",
+                "Thickness",
+                "Fraying"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {
+                "right": [
+                  "Whether edges need finishing",
+                  "How the item fits and moves",
+                  "How stiff and warm it is"
+                ]
+              }
+            },
+            {
+              "id": "fabric-3",
+              "kind": "singleSelect",
+              "prompt": "A pattern asks for a stretch knit. What should you check before substituting?",
+              "explanation": "Changing stretch changes fit and construction.",
+              "options": [
+                "Only the colour",
+                "Its stretch and behaviour",
+                "The price tag font",
+                "The packaging"
+              ],
+              "answer": [
+                1
+              ],
+              "content": {
+                "skippable": true
+              }
+            },
+            {
+              "id": "fabric-4",
+              "kind": "typedReflection",
+              "prompt": "Compare two fabrics you can see or read about.",
+              "explanation": "A side-by-side comparison makes the choice explainable.",
+              "options": [],
+              "answer": [],
+              "content": {
+                "task": "Note stretch, thickness and fraying for each, then say which suits your brief."
+              }
+            }
+          ]
+        },
+        {
+          "id": "fashion-measure",
+          "title": "Measure with a clear record",
+          "subtitle": "Use consistent units and repeat checks.",
+          "prerequisites": [
+            "fashion-fabric"
+          ],
+          "minutes": 15,
+          "deliverable": "Measure a notebook or paper rectangle twice. Label width, height, and units. Compare the two readings before planning a pattern.",
+          "resource_id": "fashion-measure-reference",
+          "lesson": {
+            "prompt": "Your two width measurements differ. What is a useful next step?",
+            "options": [
+              "Cut immediately",
+              "Average without checking",
+              "Remeasure with a consistent method",
+              "Remove the unit"
+            ],
+            "correct": 2,
+            "explanation": "Checking the method and repeating the measurement can reveal the source of the difference.",
+            "hint": "Break the idea into one small step.",
+            "idea": "Use consistent units and repeat checks.",
+            "body": "Record what was measured, the units, and any intended ease or allowance separately. Repeat a measurement before cutting. A measurement is not a pattern size by itself; compare it with the specific pattern’s sizing information. For this demo, practise on paper or an object rather than entering personal body measurements.",
+            "example": "Object width: 12 cm\nObject height: 18 cm\nAllowances: recorded separately",
+            "task": "Measure a notebook or paper rectangle twice. Label width, height, and units. Compare the two readings before planning a pattern."
+          },
+          "type": "guided_practice",
+          "unit_id": "fashion-unit-1",
+          "challenges": [
+            {
+              "id": "measure-1",
+              "kind": "singleSelect",
+              "prompt": "Which measurement record is clearest?",
+              "explanation": "A named dimension with a unit can be repeated and compared.",
+              "options": [
+                "Width: 12",
+                "Width: 12 cm",
+                "About 12",
+                "Size: nice"
+              ],
+              "answer": [
+                1
+              ],
+              "content": {
+                "hint": "What would someone else need to repeat it?",
+                "parallel": {
+                  "prompt": "Which record could someone else repeat?",
+                  "options": [
+                    "Height: 18 cm, measured at the centre",
+                    "Tall",
+                    "18",
+                    "Big enough"
+                  ],
+                  "answer": [
+                    0
+                  ],
+                  "explanation": "It names the dimension, unit and method."
+                },
+                "skippable": true
+              }
+            },
+            {
+              "id": "measure-2",
+              "kind": "fashionProcedure",
+              "prompt": "Put these measuring steps in order.",
+              "explanation": "Lay it flat, measure, re-measure to compare, then record with units.",
+              "options": [
+                "Record with units",
+                "Measure once",
+                "Lay the object flat",
+                "Measure again and compare"
+              ],
+              "answer": [
+                2,
+                1,
+                3,
+                0
+              ],
+              "content": {
+                "parallel": {
+                  "prompt": "Order these steps for checking a measurement.",
+                  "options": [
+                    "Write it down",
+                    "Repeat the reading",
+                    "Take the first reading"
+                  ],
+                  "answer": [
+                    2,
+                    1,
+                    0
+                  ],
+                  "explanation": "Take a reading, repeat it, then write it down."
+                }
+              }
+            },
+            {
+              "id": "measure-3",
+              "kind": "singleSelect",
+              "prompt": "One reading is in inches and another in centimetres. What first?",
+              "explanation": "Compare only after converting to a common unit.",
+              "options": [
+                "Assume they match",
+                "Pick the bigger number",
+                "Convert to one unit",
+                "Ignore the labels"
+              ],
+              "answer": [
+                2
+              ],
+              "content": {
+                "skippable": true
+              }
+            },
+            {
+              "id": "measure-4",
+              "kind": "typedReflection",
+              "prompt": "Measure a notebook twice and record both readings.",
+              "explanation": "Repeating a measurement catches small mistakes before cutting.",
+              "options": [],
+              "answer": [],
+              "content": {
+                "task": "Label width and height with units, then say whether the two readings agree."
+              }
+            }
+          ]
+        },
+        {
+          "id": "fashion-u1-review",
+          "title": "Unit review",
+          "subtitle": "Bring back what you practised with new examples.",
+          "minutes": 10,
+          "deliverable": "Bring back what you practised with new examples.",
+          "generated": true,
+          "resource_id": "fashion-brief-reference",
+          "type": "recall_review",
+          "unit_id": "fashion-unit-1",
+          "prerequisites": [
+            "fashion-measure"
+          ],
+          "challenges": [
+            {
+              "id": "freview-1",
+              "kind": "singleSelect",
+              "prompt": "Which brief line explains a feature’s purpose?",
+              "explanation": "It ties a feature to how the item is used.",
+              "options": [
+                "A long strap so it can be worn across the body",
+                "Make it pretty",
+                "Green",
+                "Large"
+              ],
+              "answer": [
+                0
+              ],
+              "content": {
+                "parallel": {
+                  "prompt": "Which note gives a reason for a feature?",
+                  "options": [
+                    "A lined pocket keeps pens from marking the fabric",
+                    "Add pockets",
+                    "Red lining",
+                    "Small"
+                  ],
+                  "answer": [
+                    0
+                  ],
+                  "explanation": "It says why the feature exists."
+                },
+                "skippable": true
+              }
+            },
+            {
+              "id": "freview-2",
+              "kind": "matchPairs",
+              "prompt": "Match each term to its meaning.",
+              "explanation": "Selvage is the finished edge, grainline is alignment, and a unit makes a measurement usable.",
+              "options": [
+                "Selvage",
+                "Grainline",
+                "Unit"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {
+                "right": [
+                  "cm or inches",
+                  "The finished woven edge",
+                  "The direction pieces are aligned"
+                ]
+              }
+            },
+            {
+              "id": "freview-3",
+              "kind": "singleSelect",
+              "prompt": "Two width readings differ. What next?",
+              "explanation": "Repeating the method can reveal why they differ.",
+              "options": [
+                "Cut immediately",
+                "Remeasure with the same method",
+                "Average without checking",
+                "Remove the unit"
+              ],
+              "answer": [
+                1
+              ],
+              "content": {
+                "skippable": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "fashion-u1-checkpoint",
+          "title": "Unit checkpoint",
+          "subtitle": "New examples. Answer every check correctly to earn a star.",
+          "minutes": 10,
+          "deliverable": "New examples. Answer every check correctly to earn a star.",
+          "generated": true,
+          "resource_id": "fashion-brief-reference",
+          "type": "checkpoint",
+          "unit_id": "fashion-unit-1",
+          "prerequisites": [
+            "fashion-u1-review"
+          ],
+          "challenges": [
+            {
+              "id": "fcp1-1",
+              "kind": "singleSelect",
+              "prompt": "A raincoat brief says “must keep a laptop dry”. Which choice follows from it?",
+              "explanation": "The brief’s need decides the material and the opening.",
+              "options": [
+                "A water-resistant fabric and covered opening",
+                "The brightest colour",
+                "The thinnest knit",
+                "No closure"
+              ],
+              "answer": [
+                0
+              ],
+              "content": {
+                "context": "transfer",
+                "skippable": true
+              }
+            },
+            {
+              "id": "fcp1-2",
+              "kind": "fashionProcedure",
+              "prompt": "Order the planning steps for a new apron.",
+              "explanation": "Brief first, then measurements, then a fabric that suits both.",
+              "options": [
+                "Choose fabric",
+                "Write the brief",
+                "Measure the wearer’s needs on paper"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {}
+            },
+            {
+              "id": "fcp1-3",
+              "kind": "matchPairs",
+              "prompt": "Match each problem to its likely cause.",
+              "explanation": "Stretch, fraying and inconsistent methods each cause a different problem.",
+              "options": [
+                "Seam stretches out",
+                "Edges unravel",
+                "Readings disagree"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {
+                "right": [
+                  "Different measuring method",
+                  "Knit used where a woven was expected",
+                  "Fabric frays and needs finishing"
+                ],
+                "context": "transfer"
+              }
+            },
+            {
+              "id": "fcp1-4",
+              "kind": "singleSelect",
+              "prompt": "Which record is ready to plan from?",
+              "explanation": "It names the dimension, the unit and that it was checked.",
+              "options": [
+                "32",
+                "Waist-ish 32",
+                "Bag width: 32 cm, measured twice",
+                "Roomy"
+              ],
+              "answer": [
+                2
+              ],
+              "content": {
+                "skippable": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "fashion-u1-reward",
+          "title": "Unit reward",
+          "subtitle": "A quick recap, then collect your sparks.",
+          "minutes": 8,
+          "deliverable": "A quick recap, then collect your sparks.",
+          "generated": true,
+          "resource_id": "fashion-brief-reference",
+          "type": "reward_unlock",
+          "unit_id": "fashion-unit-1",
+          "prerequisites": [
+            "fashion-u1-checkpoint"
+          ],
+          "challenges": [
+            {
+              "id": "freward1-1",
+              "kind": "matchPairs",
+              "prompt": "Unit recap: match each skill to an example.",
+              "explanation": "You can now write a brief, describe fabric and record measurements.",
+              "options": [
+                "Brief",
+                "Fabric",
+                "Measuring"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {
+                "right": [
+                  "Width: 12 cm, measured twice",
+                  "For carrying sketchbooks daily",
+                  "Woven, low stretch, frays"
+                ]
+              }
+            },
+            {
+              "id": "freward1-2",
+              "kind": "typedReflection",
+              "prompt": "Name one decision you would make differently now that you know about fabric.",
+              "explanation": "Seeing how your choices changed is real progress.",
+              "options": [],
+              "answer": [],
+              "content": {
+                "task": "One sentence."
+              }
+            }
+          ]
+        },
+        {
+          "id": "fashion-pattern",
+          "title": "Separate stitching from cutting",
+          "subtitle": "Add the specified seam allowance.",
+          "prerequisites": [
+            "fashion-u1-reward"
+          ],
+          "minutes": 15,
+          "deliverable": "Draw an 8 × 10 cm finished rectangle on paper. Add a separate 1 cm seam allowance on every edge, then label both lines.",
+          "resource_id": "fashion-pattern-reference",
+          "lesson": {
+            "prompt": "A finished width is 8 cm with 1 cm allowance at both sides. What is the cut width?",
+            "options": [
+              "8 cm",
+              "9 cm",
+              "10 cm",
+              "12 cm"
+            ],
+            "correct": 2,
+            "explanation": "The two allowances add two centimeters to the finished width.",
+            "hint": "Break the idea into one small step.",
+            "idea": "Add the specified seam allowance.",
+            "body": "A stitch line marks where pieces join. A cut line may include extra fabric outside it. That extra width is the seam allowance. Follow the allowance stated by the pattern; not every pattern uses the same value. Practise with a paper rectangle before using fabric.",
+            "example": "Finished rectangle: 8 × 10 cm\nAllowance: 1 cm on every edge\nCut rectangle: 10 × 12 cm",
+            "task": "Draw an 8 × 10 cm finished rectangle on paper. Add a separate 1 cm seam allowance on every edge, then label both lines."
+          },
+          "type": "micro_lesson",
+          "unit_id": "fashion-unit-2",
+          "challenges": [
+            {
+              "id": "pattern-1",
+              "kind": "singleSelect",
+              "prompt": "What is a seam allowance?",
+              "explanation": "It is the width outside the stitching line used to join pieces.",
+              "options": [
+                "Extra fabric between the stitch line and the cut edge",
+                "A decorative line",
+                "The whole garment width",
+                "A universal size"
+              ],
+              "answer": [
+                0
+              ],
+              "content": {
+                "hint": "It sits between two lines on the pattern.",
+                "parallel": {
+                  "prompt": "On a pattern piece, what is between the stitch line and the cut line?",
+                  "options": [
+                    "The seam allowance",
+                    "The grainline",
+                    "The hem fold",
+                    "Nothing"
+                  ],
+                  "answer": [
+                    0
+                  ],
+                  "explanation": "That margin is the seam allowance."
+                },
+                "skippable": true
+              }
+            },
+            {
+              "id": "pattern-2",
+              "kind": "singleSelect",
+              "prompt": "A finished width is 12 cm with 1 cm allowance each side. What is the cut width?",
+              "explanation": "Add 1 cm on the left and 1 cm on the right: 14 cm.",
+              "options": [
+                "12 cm",
+                "13 cm",
+                "14 cm",
+                "24 cm"
+              ],
+              "answer": [
+                2
+              ],
+              "content": {
+                "hint": "There are two sides.",
+                "parallel": {
+                  "prompt": "A finished width is 8 cm with 1.5 cm allowance each side. What is the cut width?",
+                  "options": [
+                    "9.5 cm",
+                    "10 cm",
+                    "11 cm",
+                    "12 cm"
+                  ],
+                  "answer": [
+                    2
+                  ],
+                  "explanation": "Add 1.5 cm twice: 11 cm."
+                },
+                "skippable": true
+              }
+            },
+            {
+              "id": "pattern-3",
+              "kind": "fashionProcedure",
+              "prompt": "Order the steps to draft a simple pattern piece.",
+              "explanation": "Draw the finished shape, mark grain, add allowance, then label.",
+              "options": [
+                "Add seam allowance",
+                "Draw the finished shape",
+                "Mark the grainline",
+                "Label both lines"
+              ],
+              "answer": [
+                1,
+                2,
+                0,
+                3
+              ],
+              "content": {}
+            },
+            {
+              "id": "pattern-4",
+              "kind": "drawing",
+              "prompt": "Draw an 8 × 10 cm finished rectangle and a 1 cm allowance around it.",
+              "explanation": "Your drawing records the plan. Sumi does not measure it.",
+              "options": [],
+              "answer": [],
+              "content": {}
+            }
+          ]
+        },
+        {
+          "id": "fashion-u2-video",
+          "title": "Watch and apply",
+          "subtitle": "A short video, then one question that uses it.",
+          "minutes": 10,
+          "deliverable": "A short video, then one question that uses it.",
+          "generated": true,
+          "resource_id": "fashion-seam-video",
+          "type": "video_resource",
+          "unit_id": "fashion-unit-2",
+          "prerequisites": [
+            "fashion-pattern"
+          ],
+          "challenges": [
+            {
+              "id": "fvideo2-1",
+              "kind": "mediaObservation",
+              "prompt": "Watch the grainline and seam video, or read its summary. What is tested before the final seam?",
+              "explanation": "Testing on scrap protects your final pieces.",
+              "options": [],
+              "answer": [],
+              "content": {
+                "reference": "The video tests a seam on scrap fabric first, checking that the allowance stays even and the fabric does not pucker.",
+                "resourceId": "fashion-seam-video"
+              }
+            },
+            {
+              "id": "fvideo2-2",
+              "kind": "singleSelect",
+              "prompt": "Why sew a test seam on scrap?",
+              "explanation": "A sample reveals problems before they reach the final piece.",
+              "options": [
+                "To check the join before the final fabric",
+                "To skip measuring",
+                "To remove the allowance",
+                "To hide the stitch line"
+              ],
+              "answer": [
+                0
+              ],
+              "content": {
+                "parallel": {
+                  "prompt": "What does a scrap test protect?",
+                  "options": [
+                    "Your final fabric",
+                    "The sewing manual",
+                    "The scissors",
+                    "The sketch"
+                  ],
+                  "answer": [
+                    0
+                  ],
+                  "explanation": "Problems are found on scrap, not on the final piece."
+                },
+                "skippable": true
+              }
+            },
+            {
+              "id": "fvideo2-3",
+              "kind": "typedReflection",
+              "prompt": "Name one thing you would check on a test seam.",
+              "explanation": "Choosing what to check makes the test useful.",
+              "options": [],
+              "answer": [],
+              "content": {
+                "task": "One sentence."
+              }
+            }
+          ]
+        },
+        {
+          "id": "fashion-seam",
+          "title": "Make a controlled sample seam",
+          "subtitle": "Test the join before the final piece.",
+          "prerequisites": [
+            "fashion-u2-video"
+          ],
+          "minutes": 15,
+          "deliverable": "Make a paper mockup or a small scrap seam sample. Mark the seam line and inspect whether its width stays consistent. A photograph or written observation is for your own review; this app does not inspect it.",
+          "resource_id": "fashion-seam-video",
+          "lesson": {
+            "prompt": "Which observation is most useful when reviewing a sample seam?",
+            "options": [
+              "The allowance stays near the marked width",
+              "The scrap has a long name",
+              "The spool is new",
+              "The scissors have a logo"
+            ],
+            "correct": 0,
+            "explanation": "It checks a feature of the actual seam against the intended construction.",
+            "hint": "Break the idea into one small step.",
+            "idea": "Test the join before the final piece.",
+            "body": "A sample lets you check alignment, seam width, and stitch quality before joining the final pieces. Mark the intended seam line and keep the allowance consistent. Begin with a paper mockup, or use a scrap sample with equipment you know how to operate according to its instructions.",
+            "example": "Align edges → mark seam line → join sample → check width and puckering",
+            "task": "Make a paper mockup or a small scrap seam sample. Mark the seam line and inspect whether its width stays consistent. A photograph or written observation is for your own review; this app does not inspect it."
+          },
+          "type": "project_step",
+          "unit_id": "fashion-unit-2",
+          "challenges": [
+            {
+              "id": "seam-1",
+              "kind": "singleSelect",
+              "prompt": "A seam sample puckers. What is a sensible next step?",
+              "explanation": "Change one thing and test again on scrap.",
+              "options": [
+                "Use it on the final piece",
+                "Adjust handling or settings and test another scrap",
+                "Cut away the allowance",
+                "Stop recording"
+              ],
+              "answer": [
+                1
+              ],
+              "content": {
+                "parallel": {
+                  "prompt": "A test seam wanders off the marked line. What next?",
+                  "options": [
+                    "Mark the line clearly and try another scrap",
+                    "Sew the final piece anyway",
+                    "Remove the mark",
+                    "Stop"
+                  ],
+                  "answer": [
+                    0
+                  ],
+                  "explanation": "Improve the guide and test again."
+                },
+                "skippable": true
+              }
+            },
+            {
+              "id": "seam-2",
+              "kind": "fashionProcedure",
+              "prompt": "Order the sample-seam steps.",
+              "explanation": "Align, mark, join, then inspect.",
+              "options": [
+                "Inspect width and puckering",
+                "Align the edges",
+                "Mark the seam line",
+                "Join the sample"
+              ],
+              "answer": [
+                1,
+                2,
+                3,
+                0
+              ],
+              "content": {}
+            },
+            {
+              "id": "seam-3",
+              "kind": "projectReflection",
+              "prompt": "Make a paper mockup or a scrap seam sample.",
+              "explanation": "Your project evidence is saved as your own report. Sumi does not inspect the sample.",
+              "options": [],
+              "answer": [],
+              "content": {
+                "task": "Mark the seam line, join the pieces, and inspect whether the width stays even.",
+                "rubric": [
+                  "Allowance stays even",
+                  "Edges aligned",
+                  "No puckering",
+                  "One change named"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "fashion-finish",
+          "title": "Finish, inspect, and refine",
+          "subtitle": "Review the result against the brief.",
+          "prerequisites": [
+            "fashion-seam"
+          ],
+          "minutes": 15,
+          "deliverable": "Review your paper mockup or sewn sample against the brief. Note one thing that works and one concrete change. Completing this task is self-reported, not a professional construction grade.",
+          "resource_id": "fashion-finish-reference",
+          "lesson": {
+            "prompt": "Which note provides a useful next alteration?",
+            "options": [
+              "Make it better somehow",
+              "Everything is mastered",
+              "The opening is too narrow for the notebook; widen the mockup",
+              "The project title is short"
+            ],
+            "correct": 2,
+            "explanation": "It identifies an observed problem and a specific change to test.",
+            "hint": "Break the idea into one small step.",
+            "idea": "Review the result against the brief.",
+            "body": "Choose an edge finish that suits the material and use. Check for loose stitches, fraying, and uneven edges. Pressing and care depend on the fabric, so use its care instructions and test scraps first. Finally compare the item or mockup with your original brief and name one improvement.",
+            "example": "Review: function + dimensions + secure join + clean edge\nImprove: one observable change at a time",
+            "task": "Review your paper mockup or sewn sample against the brief. Note one thing that works and one concrete change. Completing this task is self-reported, not a professional construction grade."
+          },
+          "type": "project_step",
+          "unit_id": "fashion-unit-2",
+          "challenges": [
+            {
+              "id": "finish-1",
+              "kind": "singleSelect",
+              "prompt": "What should guide an edge finish?",
+              "explanation": "Material and use decide a suitable finish.",
+              "options": [
+                "Only speed",
+                "The fabric, construction and intended use",
+                "A random width",
+                "The date"
+              ],
+              "answer": [
+                1
+              ],
+              "content": {
+                "parallel": {
+                  "prompt": "Which fact matters most when choosing an edge finish?",
+                  "options": [
+                    "Whether the fabric frays",
+                    "The thread brand",
+                    "The day of the week",
+                    "The pattern name"
+                  ],
+                  "answer": [
+                    0
+                  ],
+                  "explanation": "Fraying fabric needs an edge that controls it."
+                },
+                "skippable": true
+              }
+            },
+            {
+              "id": "finish-2",
+              "kind": "matchPairs",
+              "prompt": "Match each review question to what it checks.",
+              "explanation": "A final review checks function, construction and finishing against the brief.",
+              "options": [
+                "Does it hold the notebook?",
+                "Are the seams secure?",
+                "Is the edge clean?"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {
+                "right": [
+                  "Finishing",
+                  "Function",
+                  "Construction"
+                ]
+              }
+            },
+            {
+              "id": "finish-3",
+              "kind": "projectReflection",
+              "prompt": "Review your mockup or sample against your brief.",
+              "explanation": "This is a self-review, not a professional construction grade.",
+              "options": [],
+              "answer": [],
+              "content": {
+                "task": "Note one thing that works and one concrete change.",
+                "rubric": [
+                  "Compared with the brief",
+                  "Function checked",
+                  "Edges checked",
+                  "One change named"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "fashion-u2-checkpoint",
+          "title": "Unit checkpoint",
+          "subtitle": "New examples. Answer every check correctly to earn a star.",
+          "minutes": 10,
+          "deliverable": "New examples. Answer every check correctly to earn a star.",
+          "generated": true,
+          "resource_id": "fashion-pattern-reference",
+          "type": "checkpoint",
+          "unit_id": "fashion-unit-2",
+          "prerequisites": [
+            "fashion-finish"
+          ],
+          "challenges": [
+            {
+              "id": "fcp2-1",
+              "kind": "singleSelect",
+              "prompt": "A cushion cover finishes at 40 cm with 1 cm allowance each side. What is the cut width?",
+              "explanation": "Add 1 cm on each side: 42 cm.",
+              "options": [
+                "40 cm",
+                "41 cm",
+                "42 cm",
+                "44 cm"
+              ],
+              "answer": [
+                2
+              ],
+              "content": {
+                "context": "transfer",
+                "skippable": true
+              }
+            },
+            {
+              "id": "fcp2-2",
+              "kind": "fashionProcedure",
+              "prompt": "Order the steps from pattern to sample.",
+              "explanation": "Pattern with allowance, then sample, then inspect.",
+              "options": [
+                "Inspect the sample",
+                "Add allowance to the pattern",
+                "Cut and join a scrap sample"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {}
+            },
+            {
+              "id": "fcp2-3",
+              "kind": "matchPairs",
+              "prompt": "Match each finished-item problem to a fix to test.",
+              "explanation": "Each problem points to one change to test.",
+              "options": [
+                "Opening too narrow",
+                "Edge frays",
+                "Seam puckers"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {
+                "right": [
+                  "Adjust handling on a scrap test",
+                  "Widen the mockup opening",
+                  "Add a suitable edge finish"
+                ],
+                "context": "transfer"
+              }
+            },
+            {
+              "id": "fcp2-4",
+              "kind": "singleSelect",
+              "prompt": "Which note gives a useful next alteration?",
+              "explanation": "It names a measurable problem and a specific change.",
+              "options": [
+                "Make it better",
+                "Everything is perfect",
+                "The strap is 5 cm too short; lengthen the mockup",
+                "Short title"
+              ],
+              "answer": [
+                2
+              ],
+              "content": {
+                "skippable": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "fashion-u2-reward",
+          "title": "Unit reward",
+          "subtitle": "A quick recap, then collect your sparks.",
+          "minutes": 8,
+          "deliverable": "A quick recap, then collect your sparks.",
+          "generated": true,
+          "resource_id": "fashion-pattern-reference",
+          "type": "reward_unlock",
+          "unit_id": "fashion-unit-2",
+          "prerequisites": [
+            "fashion-u2-checkpoint"
+          ],
+          "challenges": [
+            {
+              "id": "freward2-1",
+              "kind": "matchPairs",
+              "prompt": "Unit recap: match each skill to an example.",
+              "explanation": "You can now draft with allowance, test a seam and review against a brief.",
+              "options": [
+                "Pattern",
+                "Sample seam",
+                "Review"
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ],
+              "content": {
+                "right": [
+                  "Compare the result with the brief",
+                  "Add 1 cm allowance to each edge",
+                  "Test the join on scrap first"
+                ]
+              }
+            },
+            {
+              "id": "freward2-2",
+              "kind": "typedReflection",
+              "prompt": "What would you like to make next?",
+              "explanation": "A next project keeps your skills growing.",
+              "options": [],
+              "answer": [],
+              "content": {
+                "task": "One sentence."
+              }
+            }
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "id": "fashion-brief-video",
+          "content_version": 1,
+          "canonical_url": "https://www.youtube.com/watch?v=833_Ym843_0",
+          "provider_id": "youtube",
+          "title": "How to Write a Garment Design Brief & Sketching Basics",
+          "publisher": "Professor Pincushion",
+          "creator": "Professor Pincushion",
+          "type": "video",
+          "discipline": "fashion",
+          "capability_tags": [
+            "fashion-brief",
+            "fashion-measure"
+          ],
+          "level": "Foundations",
+          "prerequisites": [],
+          "duration_minutes": 7,
+          "language": "en",
+          "has_captions": true,
+          "cost_type": "free",
+          "bandwidth_type": "high",
+          "reviewed_status": "reviewed",
+          "reviewed_at": "2026-10-28T00:00:00Z",
+          "provenance": "Human-reviewed YouTube sewing and design tutorial",
+          "license_note": "Standard YouTube License - Open Educational Viewing",
+          "safety_flags": [],
+          "why_it_helps": "Walks through identifying wearer needs, drawing silhouettes, and labeling functional features.",
+          "check_activity_id": "fashion-brief",
+          "description": "A step-by-step video guide to turning garment ideas into structured design briefs."
+        },
+        {
+          "id": "fashion-seam-video",
+          "content_version": 1,
+          "canonical_url": "https://www.youtube.com/watch?v=71_319_0_11",
+          "provider_id": "youtube",
+          "title": "Understanding Grainlines, Seam Allowances, and Testing Sample Seams",
+          "publisher": "Professor Pincushion",
+          "creator": "Professor Pincushion",
+          "type": "video",
+          "discipline": "fashion",
+          "capability_tags": [
+            "fashion-fabric",
+            "fashion-pattern",
+            "fashion-seam"
+          ],
+          "level": "Foundations",
+          "prerequisites": [
+            "fashion-brief"
+          ],
+          "duration_minutes": 9,
+          "language": "en",
+          "has_captions": true,
+          "cost_type": "free",
+          "bandwidth_type": "high",
+          "reviewed_status": "reviewed",
+          "reviewed_at": "2026-10-28T00:00:00Z",
+          "provenance": "Human-reviewed YouTube sewing tutorial",
+          "license_note": "Standard YouTube License - Open Educational Viewing",
+          "safety_flags": [],
+          "why_it_helps": "Demonstrates marking cut lines vs stitch lines and sewing straight seam allowances on fabric scraps.",
+          "check_activity_id": "fashion-seam",
+          "description": "Practical video demonstration of seam allowances, grainlines, and scrap testing."
+        },
+        {
+          "id": "fashion-brief-reference",
+          "content_version": 1,
+          "canonical_url": "https://pubs.nmsu.edu/_c/index.html",
+          "provider_id": "nmsu_extension",
+          "title": "Clothing design, selection, and construction resources",
+          "publisher": "NMSU Extension",
+          "creator": "New Mexico State University Extension Service",
+          "type": "article",
+          "discipline": "fashion",
+          "capability_tags": [
+            "fashion-brief"
+          ],
+          "level": "Foundations",
+          "prerequisites": [],
+          "duration_minutes": 10,
+          "language": "en",
+          "has_captions": false,
+          "cost_type": "free",
+          "bandwidth_type": "low",
+          "reviewed_status": "reviewed",
+          "reviewed_at": "2026-10-28T00:00:00Z",
+          "provenance": "NMSU Extension Agricultural & Extension Service",
+          "license_note": "Public University Extension Educational Publication",
+          "safety_flags": [],
+          "why_it_helps": "Reference material on clothing selection and functional design considerations.",
+          "check_activity_id": "fashion-brief",
+          "description": "University extension reference on design selection principles."
+        },
+        {
+          "id": "fashion-fabric-reference",
+          "content_version": 1,
+          "canonical_url": "https://pubs.nmsu.edu/_c/index.html",
+          "provider_id": "nmsu_extension",
+          "title": "Fabric selection and textile resources",
+          "publisher": "NMSU Extension",
+          "creator": "New Mexico State University Extension Service",
+          "type": "article",
+          "discipline": "fashion",
+          "capability_tags": [
+            "fashion-fabric"
+          ],
+          "level": "Foundations",
+          "prerequisites": [
+            "fashion-brief"
+          ],
+          "duration_minutes": 10,
+          "language": "en",
+          "has_captions": false,
+          "cost_type": "free",
+          "bandwidth_type": "low",
+          "reviewed_status": "reviewed",
+          "reviewed_at": "2026-10-28T00:00:00Z",
+          "provenance": "NMSU Extension Agricultural & Extension Service",
+          "license_note": "Public University Extension Educational Publication",
+          "safety_flags": [],
+          "why_it_helps": "Guides comparing woven and knit fabric behavior and stretch direction.",
+          "check_activity_id": "fashion-fabric",
+          "description": "Textile selection guide for garment construction."
+        },
+        {
+          "id": "fashion-measure-reference",
+          "content_version": 1,
+          "canonical_url": "https://pubs.nmsu.edu/_c/index.html",
+          "provider_id": "nmsu_extension",
+          "title": "Measurement and pattern-fit guides",
+          "publisher": "NMSU Extension",
+          "creator": "New Mexico State University Extension Service",
+          "type": "article",
+          "discipline": "fashion",
+          "capability_tags": [
+            "fashion-measure"
+          ],
+          "level": "Foundations",
+          "prerequisites": [
+            "fashion-fabric"
+          ],
+          "duration_minutes": 10,
+          "language": "en",
+          "has_captions": false,
+          "cost_type": "free",
+          "bandwidth_type": "low",
+          "reviewed_status": "reviewed",
+          "reviewed_at": "2026-10-28T00:00:00Z",
+          "provenance": "NMSU Extension Agricultural & Extension Service",
+          "license_note": "Public University Extension Educational Publication",
+          "safety_flags": [],
+          "why_it_helps": "Provides accurate measurement procedures and recording methods.",
+          "check_activity_id": "fashion-measure",
+          "description": "Measurement standards guide for sewing projects."
+        },
+        {
+          "id": "fashion-pattern-reference",
+          "content_version": 1,
+          "canonical_url": "https://pubs.nmsu.edu/_c/index.html",
+          "provider_id": "nmsu_extension",
+          "title": "Pattern and construction guidance",
+          "publisher": "NMSU Extension",
+          "creator": "New Mexico State University Extension Service",
+          "type": "article",
+          "discipline": "fashion",
+          "capability_tags": [
+            "fashion-pattern"
+          ],
+          "level": "Foundations",
+          "prerequisites": [
+            "fashion-measure"
+          ],
+          "duration_minutes": 10,
+          "language": "en",
+          "has_captions": false,
+          "cost_type": "free",
+          "bandwidth_type": "low",
+          "reviewed_status": "reviewed",
+          "reviewed_at": "2026-10-28T00:00:00Z",
+          "provenance": "NMSU Extension Agricultural & Extension Service",
+          "license_note": "Public University Extension Educational Publication",
+          "safety_flags": [],
+          "why_it_helps": "Guides marking cut lines and calculated seam allowances.",
+          "check_activity_id": "fashion-pattern",
+          "description": "Pattern construction guide with seam allowance calculations."
+        },
+        {
+          "id": "fashion-seam-reference",
+          "content_version": 1,
+          "canonical_url": "https://pubs.nmsu.edu/_c/C103.pdf",
+          "provider_id": "nmsu_extension",
+          "title": "Construction Quality Review Checklist",
+          "publisher": "NMSU Extension",
+          "creator": "New Mexico State University Extension Service",
+          "type": "article",
+          "discipline": "fashion",
+          "capability_tags": [
+            "fashion-seam",
+            "fashion-finish"
+          ],
+          "level": "Foundations",
+          "prerequisites": [
+            "fashion-pattern"
+          ],
+          "duration_minutes": 10,
+          "language": "en",
+          "has_captions": false,
+          "cost_type": "free",
+          "bandwidth_type": "low",
+          "reviewed_status": "reviewed",
+          "reviewed_at": "2026-10-28T00:00:00Z",
+          "provenance": "NMSU Extension Agricultural & Extension Service",
+          "license_note": "Public University Extension Educational Publication",
+          "safety_flags": [],
+          "why_it_helps": "Illustrated guide with visual standards for checking seam consistency and edge finishing.",
+          "check_activity_id": "fashion-seam",
+          "description": "University extension guide on sewing construction standards and seam review."
+        },
+        {
+          "id": "fashion-finish-reference",
+          "content_version": 1,
+          "canonical_url": "https://pubs.nmsu.edu/_c/C103.pdf",
+          "provider_id": "nmsu_extension",
+          "title": "Reviewing a clothing project",
+          "publisher": "NMSU Extension",
+          "creator": "New Mexico State University Extension Service",
+          "type": "article",
+          "discipline": "fashion",
+          "capability_tags": [
+            "fashion-finish"
+          ],
+          "level": "Foundations",
+          "prerequisites": [
+            "fashion-seam"
+          ],
+          "duration_minutes": 10,
+          "language": "en",
+          "has_captions": false,
+          "cost_type": "free",
+          "bandwidth_type": "low",
+          "reviewed_status": "reviewed",
+          "reviewed_at": "2026-10-28T00:00:00Z",
+          "provenance": "NMSU Extension Agricultural & Extension Service",
+          "license_note": "Public University Extension Educational Publication",
+          "safety_flags": [],
+          "why_it_helps": "Checklist for reviewing finished garments against brief specifications.",
+          "check_activity_id": "fashion-finish",
+          "description": "Garment evaluation guide and quality inspection checklist."
+        }
+      ],
+      "calibration": [
+        {
+          "day": 1,
+          "title": "Choose, assess, and try",
+          "kind": "baseline",
+          "description": "Choose your discipline and goal. Complete the six-question baseline, try a project step, and download an optional phone model."
+        },
+        {
+          "day": 2,
+          "title": "Return, recall, and review",
+          "kind": "recall",
+          "description": "Try six new examples, compare your work, test the coach with connectivity off, and record usability feedback. An early check-in is labelled as an accelerated demo."
+        }
+      ],
+      "units": [
+        {
+          "id": "fashion-unit-1",
+          "title": "Brief, fabric and measuring",
+          "outcome": "Write a clear brief, choose suitable fabric and record repeatable measurements.",
+          "palette": 0,
+          "guide": {
+            "key_ideas": [
+              "A brief names the wearer, the use and the constraints.",
+              "Lengthwise grain runs parallel to the selvage.",
+              "Stretch, thickness and fraying change how fabric behaves.",
+              "Record each measurement with its unit and repeat it."
+            ],
+            "watch": [
+              "fashion-brief-video"
+            ],
+            "reference": [
+              "fashion-brief-reference",
+              "fashion-fabric-reference",
+              "fashion-measure-reference"
+            ],
+            "tryit": "Write a three-line brief, then measure a notebook twice and record both readings with units."
+          }
+        },
+        {
+          "id": "fashion-unit-2",
+          "title": "Pattern to finished sample",
+          "outcome": "Draft with seam allowance, test a seam on scrap and review the result.",
+          "palette": 1,
+          "guide": {
+            "key_ideas": [
+              "The seam allowance sits between the stitch line and the cut edge.",
+              "Cut width = finished width + allowance on each side.",
+              "Test a seam on scrap before the final piece.",
+              "Review the result against the brief and name one change."
+            ],
+            "watch": [
+              "fashion-seam-video"
+            ],
+            "reference": [
+              "fashion-pattern-reference",
+              "fashion-seam-reference",
+              "fashion-finish-reference"
+            ],
+            "tryit": "Draft a paper rectangle with a 1 cm allowance, then make a scrap or paper seam sample."
+          }
+        }
+      ],
+      "evidence_categories": [
+        "procedure",
+        "tools",
+        "annotated plan",
+        "reflection"
+      ],
+      "celebration": "stitches",
+      "default_accolade": "making",
+      "scene": "fashion",
+      "preview_capabilities": [
+        "Write a design brief that explains each feature.",
+        "Draft a simple pattern with the right seam allowance.",
+        "Test a sample seam and review it against your brief."
+      ],
+      "outcome_chips": [
+        "Make a simple tote",
+        "Draft a basic pattern",
+        "Learn accurate measurements",
+        "Build clean seams"
+      ]
+    }
+  ]
+}

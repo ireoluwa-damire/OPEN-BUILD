@@ -1,0 +1,50 @@
+{
+  "prepared_client_date": "2026-10-27",
+  "selected_screenshots_verified": 11,
+  "retained_rea_records": 14,
+  "local_markdown_links_verified": 11,
+  "text_contrast_checks": [
+    {
+      "foreground": "textPrimary",
+      "background": "background",
+      "ratio": 12.54
+    },
+    {
+      "foreground": "textPrimary",
+      "background": "surface",
+      "ratio": 13.13
+    },
+    {
+      "foreground": "textSecondary",
+      "background": "background",
+      "ratio": 5.97
+    },
+    {
+      "foreground": "textSecondary",
+      "background": "surface",
+      "ratio": 6.25
+    },
+    {
+      "foreground": "onPrimary",
+      "background": "primary",
+      "ratio": 11.35
+    },
+    {
+      "foreground": "textPrimary",
+      "background": "selectedBackground",
+      "ratio": 11.19
+    },
+    {
+      "foreground": "successText",
+      "background": "successBackground",
+      "ratio": 6.06
+    },
+    {
+      "foreground": "retryText",
+      "background": "retryBackground",
+      "ratio": 7.06
+    }
+  ],
+  "scope": "Research-artifact validation only; no app or model benchmark was run.",
+  "upstream_code_status": "Archived and inspected; not executed or modernized."
+}

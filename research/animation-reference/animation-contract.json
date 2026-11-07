@@ -1,0 +1,40 @@
+{
+  "contract_version": 1,
+  "status": "proposed for original artwork; no Duolingo production rig included",
+  "character_choice": "learner team to choose; existing Sumi is a placeholder",
+  "required_export_metadata": ["state_id", "author", "licence", "editable_source", "runtime_file", "poster_file", "logical_bounds", "duration_ms", "frame_rate_if_raster", "loop", "interruptible", "exit_state"],
+  "default_state": "idle",
+  "default_exit_state": "idle",
+  "states": [
+    {"id":"idle", "priority":"P0", "loop":true, "duration_target_ms":[2000,4000], "poster":"neutral"},
+    {"id":"greet", "priority":"P0", "loop":false, "duration_target_ms":[500,1000], "poster":"welcome"},
+    {"id":"point", "priority":"P0", "loop":false, "duration_target_ms":[400,800], "poster":"point"},
+    {"id":"think", "priority":"P0", "loop":true, "duration_target_ms":[1800,3500], "poster":"thinking"},
+    {"id":"correct", "priority":"P0", "loop":false, "duration_target_ms":[500,900], "poster":"pleased"},
+    {"id":"retry", "priority":"P0", "loop":false, "duration_target_ms":[500,900], "poster":"encouraging"},
+    {"id":"hint", "priority":"P0", "loop":false, "duration_target_ms":[600,1000], "poster":"helpful"},
+    {"id":"complete", "priority":"P0", "loop":false, "duration_target_ms":[1000,1500], "poster":"completed"},
+    {"id":"local_ready", "priority":"P0", "loop":false, "duration_target_ms":[500,900], "poster":"ready"},
+    {"id":"recover", "priority":"P0", "loop":false, "duration_target_ms":[500,1000], "poster":"calm"},
+    {"id":"listen", "priority":"P1", "loop":true, "poster":"attentive"},
+    {"id":"compare", "priority":"P1", "loop":false, "poster":"compare"},
+    {"id":"music_count", "priority":"P1", "loop":false, "poster":"count", "timing_source":"actual practice beat events"},
+    {"id":"design_make", "priority":"P1", "loop":false, "poster":"make", "prop":"original sketch/fabric prop layer"},
+    {"id":"milestone_big", "priority":"P2", "loop":false, "poster":"achievement"}
+  ],
+  "suggested_application_inputs": {
+    "state":"one of the state IDs; bind to a runtime enum/integer or explicit animation mapping",
+    "progress":"real task/download progress from 0 to 1; never fabricated from time",
+    "reduced_motion":"show poster pose and text instead of animated loops",
+    "app_active":"pause animation when false",
+    "optional_viseme_index":"only if a future real speech stream drives it"
+  },
+  "behaviour_rules": [
+    "State changes must not delay or disable the learner's controls.",
+    "Pause animation when the application backgrounds.",
+    "Always provide the same meaning through text and a still pose.",
+    "Download success is not model readiness; keep those events separate.",
+    "Model output does not by itself certify mastery or complete project work.",
+    "Cancel or error transitions must interrupt thinking/download status promptly."
+  ]
+}
