@@ -1,0 +1,45 @@
+.tooling/
+.venv/
+.dart_tool/
+**/.dart_tool/
+**/build/
+**/coverage/
+**/__pycache__/
+**/*.pyc
+**/local.properties
+**/.flutter-plugins-dependencies
+.env
+backend/data/
+*.log
+preview/
+dist/*.apk
+
+# --- GOV-01: third-party reference material (never redistributed) ---
+# See research/THIRD_PARTY_EXCLUDED.md for what is excluded and why.
+*.apk
+*.aab
+*.riv
+research/rea-duolingo-android-*/*.apk
+research/rea-duolingo-android-*/rea-apk-inventory-evidence.json
+tools/jadx-headless-mcp*
+research/captures/
+research/live-reference-2026-10-29/frames/
+research/live-reference-2026-10-29/*.png
+research/animation-reference/media/
+research/animation-reference/runtime/
+research/animation-reference/download-pack.zip
+research/animation-reference/animated-contact-sheet.jpg
+research/duolingo-landing-*
+research/rea-evidence-bundle.json
+research/session-reconstruction-*/*.png
+research/session-reconstruction-*/concurrent-source/
+research/brief-*.png
+research/mascots/*.png
+OPEN-BUILD-reference-pack.zip
+OPEN--BUILD-2026-Challenge-Brief.pdf
+Mascot concepts
+preview/
+app/AppData/
+app/*.log
+app/dist/
+.idea/

@@ -1,0 +1,53 @@
+{
+  "status": "original proposal, not extracted Duolingo values",
+  "direction": "Sumi adaptive learning companion",
+  "color": {
+    "background": "#FFF9F0",
+    "surface": "#FFFFFF",
+    "textPrimary": "#24304B",
+    "textSecondary": "#556176",
+    "primary": "#34346B",
+    "onPrimary": "#FFFFFF",
+    "primaryShadow": "#25254F",
+    "tealAccent": "#3EA9A0",
+    "coralAccent": "#F47C65",
+    "selectedBackground": "#ECEBFF",
+    "border": "#C7CCD6",
+    "focus": "#34346B",
+    "successText": "#176650",
+    "successBackground": "#E2F5EC",
+    "retryText": "#922F36",
+    "retryBackground": "#FFF0ED"
+  },
+  "spacing": [4, 8, 12, 16, 24, 32, 48],
+  "radius": {"control": 16, "card": 20, "pill": 999},
+  "typography": {
+    "family": "system-ui, sans-serif",
+    "heading": {"size": 28, "lineHeight": 34, "weight": 750},
+    "section": {"size": 22, "lineHeight": 28, "weight": 700},
+    "body": {"size": 17, "lineHeight": 25, "weight": 400},
+    "label": {"size": 15, "lineHeight": 20, "weight": 650}
+  },
+  "interaction": {
+    "minimumTouchTarget": 48,
+    "primaryButtonHeight": 56,
+    "controlBorder": 2,
+    "primaryButtonShadow": 4,
+    "focusRing": 3,
+    "feedbackRequiresText": true,
+    "colorIsNeverOnlySignal": true,
+    "preserveAnswerOnNetworkFailure": true
+  },
+  "motion": {
+    "pressMilliseconds": 120,
+    "transitionMilliseconds": 200,
+    "celebrationMaximumMilliseconds": 900,
+    "respectReducedMotion": true,
+    "staticEquivalentRequired": true
+  },
+  "componentStates": [
+    "loading", "unanswered", "selected", "submitting",
+    "correct", "partial", "retry", "network-error", "completed"
+  ],
+  "verification": "Body text pairs checked in the pack validation; full UI accessibility requires implementation testing."
+}

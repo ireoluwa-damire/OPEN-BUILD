@@ -1,0 +1,105 @@
+{
+  "schema_version": 3,
+  "sessions": {},
+  "path_context": {},
+  "path_events": [],
+  "track_id": "music",
+  "goal": "Write a four-bar rhythm I can perform",
+  "daily_minutes": 10,
+  "attempts": [
+    {
+      "question_id": "music-q1",
+      "answer_index": 0,
+      "used_hint": false,
+      "active_seconds": 7.5,
+      "recorded_at": "2026-10-28T09:05:00.000"
+    }
+  ],
+  "recall_attempts": [],
+  "demo_feedback": null,
+  "completed": [
+    "music-pulse",
+    "music-duration"
+  ],
+  "demonstrated": [
+    "music-pulse"
+  ],
+  "transferred": [],
+  "saved_resource_ids": [
+    "music-pulse-video"
+  ],
+  "recently_used_resource_ids": [],
+  "resource_events": [],
+  "preferred_format_override": null,
+  "data_saving_mode": false,
+  "sound_effects_enabled": false,
+  "haptics_enabled": true,
+  "reduced_motion": true,
+  "text_scale_factor": 1.0,
+  "reminders_enabled": true,
+  "reminder_time": "09:00",
+  "goal_record": {
+    "id": "goal_music_1761642000000",
+    "discipline_id": "music",
+    "outcome": "Write a four-bar rhythm I can perform",
+    "deadline": "1 month",
+    "constraints": [
+      "cloud_consent_given"
+    ],
+    "status": "active",
+    "proficiency": "Tried a little",
+    "motivation": "Finish a real project",
+    "daily_minutes": 10,
+    "starting_route": "placement"
+  },
+  "adaptation_events": [],
+  "completed_check_ins": 0,
+  "started_at": "2026-10-28T09:00:00.000",
+  "last_check_in_at": null,
+  "ai_plan": null,
+  "onboarding": {
+    "step_index": 9,
+    "completion_state": true,
+    "selected_discipline": "music",
+    "outcome": "Write a four-bar rhythm I can perform",
+    "deadline": "1 month",
+    "constraints": [
+      "Low bandwidth",
+      "cloud_consent_given"
+    ],
+    "motivation": "Finish a real project",
+    "proficiency": "Tried a little",
+    "daily_minutes": 10,
+    "starting_route": "placement"
+  },
+  "engagement": {
+    "points_total": 40,
+    "points_week": 0,
+    "streak_days": 2,
+    "last_streak_date": "2026-10-29T18:00:00.000",
+    "recovery_tokens": 0,
+    "sparks_balance": 10,
+    "focus_buffer": 5,
+    "completed_quest_ids": [],
+    "rewarded_event_ids": [
+      "music:goal_music_1761642000000:music-pulse:complete:reward",
+      "music:goal_music_1761642000000:music-duration:complete:reward"
+    ],
+    "reward_transactions": [
+      {
+        "id": "tx_1",
+        "timestamp": "2026-10-28T09:20:00.000",
+        "source": "music:goal_music_1761642000000:music-pulse:complete:reward",
+        "points_delta": 20,
+        "sparks_delta": 5
+      },
+      {
+        "id": "tx_2",
+        "timestamp": "2026-10-29T18:00:00.000",
+        "source": "music:goal_music_1761642000000:music-duration:complete:reward",
+        "points_delta": 20,
+        "sparks_delta": 5
+      }
+    ]
+  }
+}

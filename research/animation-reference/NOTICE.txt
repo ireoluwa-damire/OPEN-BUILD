@@ -1,0 +1,5 @@
+These are third-party Duolingo editorial reference assets, acquired from public publisher pages on 27 October 2026.
+
+Copyright, character rights and trademarks remain with Duolingo and their respective owners. No reusable or redistributable asset licence was established. Public accessibility does not grant permission to include these files in a product or an open-source repository.
+
+Use this collection as a private animation/design study. Craft and animate original artwork for Sumi. The manifest records publisher URLs and SHA-256 digests. The proposed animation contract and production checklist are original project planning material.
