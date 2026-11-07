@@ -1,0 +1,286 @@
+{
+  "questions": [
+    {
+      "id": "values-1",
+      "skill": "values",
+      "label": "Working with values",
+      "prompt": "A CSV row contains the text '12.50'. Which expression turns it into a number you can add?",
+      "code": "amount = '12.50'",
+      "options": [
+        "str(amount)",
+        "float(amount)",
+        "len(amount)",
+        "amount + 1"
+      ],
+      "correct": 1,
+      "hint": "You need a decimal number, rather than another string.",
+      "explanation": "float(amount) converts numeric text into a decimal number. CSV fields arrive as text, so conversion is an important first step.",
+      "resource_id": "python-basics"
+    },
+    {
+      "id": "loops-1",
+      "skill": "loops",
+      "label": "Following a process",
+      "prompt": "What is printed after this loop finishes?",
+      "code": "total = 0\nfor amount in [4, 6, 2]:\n    total += amount\nprint(total)",
+      "options": [
+        "2",
+        "6",
+        "12",
+        "462"
+      ],
+      "correct": 2,
+      "hint": "Start at zero and add each amount once.",
+      "explanation": "The running total becomes 4, then 10, then 12. This same pattern lets your project add every expense in a file.",
+      "resource_id": "python-control"
+    },
+    {
+      "id": "collections-1",
+      "skill": "collections",
+      "label": "Organizing information",
+      "prompt": "You want one total for each category, such as Food and Transport. Which structure fits best?",
+      "code": null,
+      "options": [
+        "One string",
+        "A dictionary of category to total",
+        "A single boolean",
+        "An unrelated random number"
+      ],
+      "correct": 1,
+      "hint": "You need to look up a number using a category name.",
+      "explanation": "A dictionary pairs each category with its total. You can update one category without losing the others.",
+      "resource_id": "python-structures"
+    },
+    {
+      "id": "functions-1",
+      "skill": "functions",
+      "label": "Building reusable steps",
+      "prompt": "What value does this function return?",
+      "code": "def add_tax(amount):\n    return amount * 1.1\n\nadd_tax(20)",
+      "options": [
+        "20",
+        "1.1",
+        "22.0",
+        "Nothing"
+      ],
+      "correct": 2,
+      "hint": "The return statement gives the calculated value back to the caller.",
+      "explanation": "20 multiplied by 1.1 is 22.0. A function lets you test this transformation separately from reading the file.",
+      "resource_id": "python-functions"
+    },
+    {
+      "id": "files-1",
+      "skill": "files",
+      "label": "Working with real data",
+      "prompt": "Why use csv.DictReader instead of splitting every line on a comma?",
+      "code": "category,amount,note\nFood,12.50,\"rice, beans\"",
+      "options": [
+        "It makes every value a number",
+        "It understands CSV quoting and column names",
+        "It guarantees that the file exists",
+        "It removes the need to test"
+      ],
+      "correct": 1,
+      "hint": "Look at the comma inside the quoted note.",
+      "explanation": "CSV values can contain quoted commas. DictReader handles CSV structure and exposes fields by column name; it does not validate amounts for you.",
+      "resource_id": "python-csv"
+    },
+    {
+      "id": "validation-1",
+      "skill": "validation",
+      "label": "Making it dependable",
+      "prompt": "One expense has the amount 'unknown'. What should your program do?",
+      "code": null,
+      "options": [
+        "Quietly count it as zero",
+        "Report or skip the invalid row with a clear reason",
+        "Delete the original file",
+        "Always crash without context"
+      ],
+      "correct": 1,
+      "hint": "Protect the original data and make the problem visible.",
+      "explanation": "Handle conversion errors explicitly and tell the user which row needs attention. Quietly replacing missing amounts can make totals misleading.",
+      "resource_id": "python-errors"
+    }
+  ],
+  "resources": [
+    {
+      "id": "python-basics",
+      "title": "A friendly introduction to Python",
+      "publisher": "Python documentation",
+      "url": "https://docs.python.org/3/tutorial/introduction.html",
+      "skill": "values",
+      "format": "Read",
+      "minutes": 12,
+      "description": "Explore numbers, strings, and lists with small examples.",
+      "level": "Some programming experience"
+    },
+    {
+      "id": "python-control",
+      "title": "Make decisions. Repeat useful work.",
+      "publisher": "Python documentation",
+      "url": "https://docs.python.org/3/tutorial/controlflow.html",
+      "skill": "loops",
+      "format": "Read + try",
+      "minutes": 15,
+      "description": "Use conditions and loops to turn a single calculation into a useful process.",
+      "level": "Foundations"
+    },
+    {
+      "id": "python-structures",
+      "title": "Give your data a little structure",
+      "publisher": "Python documentation",
+      "url": "https://docs.python.org/3/tutorial/datastructures.html",
+      "skill": "collections",
+      "format": "Read + try",
+      "minutes": 15,
+      "description": "Organize related values with lists and dictionaries.",
+      "level": "Foundations"
+    },
+    {
+      "id": "python-functions",
+      "title": "Turn a useful step into a function",
+      "publisher": "Python documentation",
+      "url": "https://docs.python.org/3/tutorial/controlflow.html#defining-functions",
+      "skill": "functions",
+      "format": "Read + try",
+      "minutes": 10,
+      "description": "Name a reusable piece of logic and return its result.",
+      "level": "Foundations"
+    },
+    {
+      "id": "python-csv",
+      "title": "Read real rows with the csv module",
+      "publisher": "Python documentation",
+      "url": "https://docs.python.org/3/library/csv.html",
+      "skill": "files",
+      "format": "Reference",
+      "minutes": 15,
+      "description": "Read a structured file and work with each field by name.",
+      "level": "Project practice"
+    },
+    {
+      "id": "python-errors",
+      "title": "Make room for things going wrong",
+      "publisher": "Python documentation",
+      "url": "https://docs.python.org/3/tutorial/errors.html",
+      "skill": "validation",
+      "format": "Read + try",
+      "minutes": 12,
+      "description": "Handle missing files and values that cannot be converted.",
+      "level": "Project practice"
+    }
+  ],
+  "skills": [
+    {
+      "id": "values",
+      "title": "Get comfortable with values",
+      "subtitle": "Turn text into something you can work with.",
+      "prerequisites": [],
+      "resource_id": "python-basics",
+      "minutes": 20,
+      "deliverable": "Convert three text amounts into numbers and explain the difference."
+    },
+    {
+      "id": "loops",
+      "title": "Make a little process",
+      "subtitle": "Repeat one useful step across a collection.",
+      "prerequisites": [
+        "values"
+      ],
+      "resource_id": "python-control",
+      "minutes": 25,
+      "deliverable": "Add a list of expenses with a loop and check the total by hand."
+    },
+    {
+      "id": "collections",
+      "title": "Find the shape in your data",
+      "subtitle": "Give every category a place to keep its total.",
+      "prerequisites": [
+        "values",
+        "loops"
+      ],
+      "resource_id": "python-structures",
+      "minutes": 30,
+      "deliverable": "Create a dictionary with a correct total for each category."
+    },
+    {
+      "id": "functions",
+      "title": "Build a reusable building block",
+      "subtitle": "Wrap a clear step in a function you can test.",
+      "prerequisites": [
+        "values"
+      ],
+      "resource_id": "python-functions",
+      "minutes": 25,
+      "deliverable": "Write a function that returns a category summary for sample expenses."
+    },
+    {
+      "id": "files",
+      "title": "Bring a real file to life",
+      "subtitle": "Connect your logic to rows from a CSV file.",
+      "prerequisites": [
+        "collections",
+        "functions"
+      ],
+      "resource_id": "python-csv",
+      "minutes": 35,
+      "deliverable": "Read a sample CSV using DictReader and print its category totals."
+    },
+    {
+      "id": "validation",
+      "title": "Make something dependable",
+      "subtitle": "Handle a missing file and an invalid amount.",
+      "prerequisites": [
+        "files"
+      ],
+      "resource_id": "python-errors",
+      "minutes": 30,
+      "deliverable": "Run the tool on valid data and two broken inputs; explain each result."
+    }
+  ],
+  "calibration": [
+    {
+      "day": 1,
+      "title": "Find your starting point",
+      "description": "A few small questions. A route you can start today.",
+      "kind": "baseline"
+    },
+    {
+      "day": 2,
+      "title": "See what stayed",
+      "description": "Return to an idea after a little space.",
+      "kind": "recall"
+    },
+    {
+      "day": 3,
+      "title": "Try a different example",
+      "description": "Use the same idea in a fresh situation.",
+      "kind": "practice"
+    },
+    {
+      "day": 4,
+      "title": "Connect the pieces",
+      "description": "Bring two ideas together in one small task.",
+      "kind": "transfer"
+    },
+    {
+      "day": 5,
+      "title": "Find a resource that clicks",
+      "description": "Read, try, and check what helped.",
+      "kind": "resource"
+    },
+    {
+      "day": 6,
+      "title": "Make a small first version",
+      "description": "Turn your practice into something tangible.",
+      "kind": "project"
+    },
+    {
+      "day": 7,
+      "title": "Shape your next chapter",
+      "description": "Reflect on the evidence and refine your route.",
+      "kind": "reflection"
+    }
+  ]
+}

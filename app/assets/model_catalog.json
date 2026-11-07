@@ -1,0 +1,43 @@
+{
+  "models": [
+    {
+      "id": "qwen3-small",
+      "name": "Qwen3 0.6B",
+      "repo": "Qwen/Qwen3-0.6B-GGUF",
+      "file": "Qwen3-0.6B-Q8_0.gguf",
+      "revision": "23749fefcc72300e3a2ad315e1317431b06b590a",
+      "sha256": "9465e63a22add5354d9bb4b99e90117043c7124007664907259bd16d043bb031",
+      "bytes": 639446688,
+      "quantization": "Q8_0",
+      "license": "apache-2.0",
+      "suggested_ram_gb": 3,
+      "note": "Smallest starter option. Text only; modest reasoning ability."
+    },
+    {
+      "id": "qwen3-medium",
+      "name": "Qwen3 1.7B",
+      "repo": "Qwen/Qwen3-1.7B-GGUF",
+      "file": "Qwen3-1.7B-Q8_0.gguf",
+      "revision": "90862c4b9d2787eaed51d12237eafdfe7c5f6077",
+      "sha256": "061b54daade076b5d3362dac252678d17da8c68f07560be70818cace6590cb1a",
+      "bytes": 1834426016,
+      "quantization": "Q8_0",
+      "license": "apache-2.0",
+      "suggested_ram_gb": 5,
+      "note": "More storage and memory. Try the small model first."
+    },
+    {
+      "id": "deepseek-distill",
+      "name": "DeepSeek R1 Distill Qwen 1.5B",
+      "repo": "bartowski/DeepSeek-R1-Distill-Qwen-1.5B-GGUF",
+      "file": "DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf",
+      "revision": "9cc28b17e86fa2415fcb070f8ee5ec27c965aa61",
+      "sha256": "1741e5b2d062b07acf048bf0d2c514dadf2a48f94e2b4aa0cfe069af3838ee2f",
+      "bytes": 1117320800,
+      "quantization": "Q4_K_M",
+      "license": "mit",
+      "suggested_ram_gb": 4,
+      "note": "Community GGUF conversion of a distilled model. This is not DeepSeek V4.1."
+    }
+  ]
+}
